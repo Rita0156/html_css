@@ -1,0 +1,1812 @@
+KSampler   ::   <class 'nodes.KSampler'>
+CheckpointLoaderSimple   ::   <class 'nodes.CheckpointLoaderSimple'>
+CLIPTextEncode   ::   <class 'nodes.CLIPTextEncode'>
+CLIPSetLastLayer   ::   <class 'nodes.CLIPSetLastLayer'>
+VAEDecode   ::   <class 'nodes.VAEDecode'>
+VAEEncode   ::   <class 'nodes.VAEEncode'>
+VAEEncodeForInpaint   ::   <class 'nodes.VAEEncodeForInpaint'>
+VAELoader   ::   <class 'nodes.VAELoader'>
+EmptyLatentImage   ::   <class 'nodes.EmptyLatentImage'>
+LatentUpscale   ::   <class 'nodes.LatentUpscale'>
+LatentUpscaleBy   ::   <class 'nodes.LatentUpscaleBy'>
+LatentFromBatch   ::   <class 'nodes.LatentFromBatch'>
+RepeatLatentBatch   ::   <class 'nodes.RepeatLatentBatch'>
+SaveImage   ::   <class 'nodes.SaveImage'>
+PreviewImage   ::   <class 'nodes.PreviewImage'>
+LoadImage   ::   <class 'nodes.LoadImage'>
+LoadImageMask   ::   <class 'nodes.LoadImageMask'>
+ImageScale   ::   <class 'nodes.ImageScale'>
+ImageScaleBy   ::   <class 'nodes.ImageScaleBy'>
+ImageInvert   ::   <class 'nodes.ImageInvert'>
+ImageBatch   ::   <class 'nodes.ImageBatch'>
+ImagePadForOutpaint   ::   <class 'nodes.ImagePadForOutpaint'>
+EmptyImage   ::   <class 'nodes.EmptyImage'>
+ConditioningAverage   ::   <class 'nodes.ConditioningAverage'>
+ConditioningCombine   ::   <class 'nodes.ConditioningCombine'>
+ConditioningConcat   ::   <class 'nodes.ConditioningConcat'>
+ConditioningSetArea   ::   <class 'nodes.ConditioningSetArea'>
+ConditioningSetAreaPercentage   ::   <class 'nodes.ConditioningSetAreaPercentage'>
+ConditioningSetMask   ::   <class 'nodes.ConditioningSetMask'>
+KSamplerAdvanced   ::   <class 'nodes.KSamplerAdvanced'>
+SetLatentNoiseMask   ::   <class 'nodes.SetLatentNoiseMask'>
+LatentComposite   ::   <class 'nodes.LatentComposite'>
+LatentBlend   ::   <class 'nodes.LatentBlend'>
+LatentRotate   ::   <class 'nodes.LatentRotate'>
+LatentFlip   ::   <class 'nodes.LatentFlip'>
+LatentCrop   ::   <class 'nodes.LatentCrop'>
+LoraLoader   ::   <class 'nodes.LoraLoader'>
+CLIPLoader   ::   <class 'nodes.CLIPLoader'>
+UNETLoader   ::   <class 'nodes.UNETLoader'>
+DualCLIPLoader   ::   <class 'nodes.DualCLIPLoader'>
+CLIPVisionEncode   ::   <class 'nodes.CLIPVisionEncode'>
+StyleModelApply   ::   <class 'nodes.StyleModelApply'>
+unCLIPConditioning   ::   <class 'nodes.unCLIPConditioning'>
+ControlNetApply   ::   <class 'nodes.ControlNetApply'>
+ControlNetApplyAdvanced   ::   <class 'nodes.ControlNetApplyAdvanced'>
+ControlNetLoader   ::   <class 'nodes.ControlNetLoader'>
+DiffControlNetLoader   ::   <class 'nodes.DiffControlNetLoader'>
+StyleModelLoader   ::   <class 'nodes.StyleModelLoader'>
+CLIPVisionLoader   ::   <class 'nodes.CLIPVisionLoader'>
+VAEDecodeTiled   ::   <class 'nodes.VAEDecodeTiled'>
+VAEEncodeTiled   ::   <class 'nodes.VAEEncodeTiled'>
+unCLIPCheckpointLoader   ::   <class 'nodes.unCLIPCheckpointLoader'>
+GLIGENLoader   ::   <class 'nodes.GLIGENLoader'>
+GLIGENTextBoxApply   ::   <class 'nodes.GLIGENTextBoxApply'>
+InpaintModelConditioning   ::   <class 'nodes.InpaintModelConditioning'>
+CheckpointLoader   ::   <class 'nodes.CheckpointLoader'>
+DiffusersLoader   ::   <class 'nodes.DiffusersLoader'>
+LoadLatent   ::   <class 'nodes.LoadLatent'>
+SaveLatent   ::   <class 'nodes.SaveLatent'>
+ConditioningZeroOut   ::   <class 'nodes.ConditioningZeroOut'>
+ConditioningSetTimestepRange   ::   <class 'nodes.ConditioningSetTimestepRange'>
+LoraLoaderModelOnly   ::   <class 'nodes.LoraLoaderModelOnly'>
+LatentAdd   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_latent.LatentAdd'>
+LatentSubtract   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_latent.LatentSubtract'>
+LatentMultiply   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_latent.LatentMultiply'>
+LatentInterpolate   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_latent.LatentInterpolate'>
+LatentBatch   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_latent.LatentBatch'>
+HypernetworkLoader   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_hypernetwork.HypernetworkLoader'>
+UpscaleModelLoader   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_upscale_model.UpscaleModelLoader'>
+ImageUpscaleWithModel   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_upscale_model.ImageUpscaleWithModel'>
+ImageBlend   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_post_processing.Blend'>
+ImageBlur   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_post_processing.Blur'>
+ImageQuantize   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_post_processing.Quantize'>
+ImageSharpen   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_post_processing.Sharpen'>
+ImageScaleToTotalPixels   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_post_processing.ImageScaleToTotalPixels'>
+LatentCompositeMasked   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.LatentCompositeMasked'>
+ImageCompositeMasked   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.ImageCompositeMasked'>
+MaskToImage   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.MaskToImage'>
+ImageToMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.ImageToMask'>
+ImageColorToMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.ImageColorToMask'>
+SolidMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.SolidMask'>
+InvertMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.InvertMask'>
+CropMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.CropMask'>
+MaskComposite   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.MaskComposite'>
+FeatherMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.FeatherMask'>
+GrowMask   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_mask.GrowMask'>
+PorterDuffImageComposite   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_compositing.PorterDuffImageComposite'>
+SplitImageWithAlpha   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_compositing.SplitImageWithAlpha'>
+JoinImageWithAlpha   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_compositing.JoinImageWithAlpha'>
+RebatchLatents   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_rebatch.LatentRebatch'>
+RebatchImages   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_rebatch.ImageRebatch'>
+ModelMergeSimple   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.ModelMergeSimple'>
+ModelMergeBlocks   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.ModelMergeBlocks'>
+ModelMergeSubtract   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.ModelSubtract'>
+ModelMergeAdd   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.ModelAdd'>
+CheckpointSave   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.CheckpointSave'>
+CLIPMergeSimple   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.CLIPMergeSimple'>
+CLIPSave   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.CLIPSave'>
+VAESave   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_merging.VAESave'>
+TomePatchModel   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_tomesd.TomePatchModel'>
+CLIPTextEncodeSDXLRefiner   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_clip_sdxl.CLIPTextEncodeSDXLRefiner'>
+CLIPTextEncodeSDXL   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_clip_sdxl.CLIPTextEncodeSDXL'>
+Canny   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_canny.Canny'>
+FreeU   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_freelunch.FreeU'>
+FreeU_V2   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_freelunch.FreeU_V2'>
+SamplerCustom   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.SamplerCustom'>
+BasicScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.BasicScheduler'>
+KarrasScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.KarrasScheduler'>
+ExponentialScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.ExponentialScheduler'>
+PolyexponentialScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.PolyexponentialScheduler'>
+VPScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.VPScheduler'>
+SDTurboScheduler   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.SDTurboScheduler'>
+KSamplerSelect   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.KSamplerSelect'>
+SamplerDPMPP_2M_SDE   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.SamplerDPMPP_2M_SDE'>
+SamplerDPMPP_SDE   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.SamplerDPMPP_SDE'>
+SplitSigmas   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.SplitSigmas'>
+FlipSigmas   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_custom_sampler.FlipSigmas'>
+HyperTile   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_hypertile.HyperTile'>
+ModelSamplingDiscrete   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_advanced.ModelSamplingDiscrete'>
+ModelSamplingContinuousEDM   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_advanced.ModelSamplingContinuousEDM'>
+RescaleCFG   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_advanced.RescaleCFG'>
+PatchModelAddDownscale   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_model_downscale.PatchModelAddDownscale'>
+ImageCrop   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_images.ImageCrop'>
+RepeatImageBatch   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_images.RepeatImageBatch'>
+SaveAnimatedWEBP   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_images.SaveAnimatedWEBP'>
+SaveAnimatedPNG   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_images.SaveAnimatedPNG'>
+ImageOnlyCheckpointLoader   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_video_model.ImageOnlyCheckpointLoader'>
+SVD_img2vid_Conditioning   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_video_model.SVD_img2vid_Conditioning'>
+VideoLinearCFGGuidance   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_video_model.VideoLinearCFGGuidance'>
+ImageOnlyCheckpointSave   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_video_model.ImageOnlyCheckpointSave'>
+SelfAttentionGuidance   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_sag.SelfAttentionGuidance'>
+PerpNeg   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_perpneg.PerpNeg'>
+StableZero123_Conditioning   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_stable3d.StableZero123_Conditioning'>
+StableZero123_Conditioning_Batched   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_stable3d.StableZero123_Conditioning_Batched'>
+SD_4XUpscale_Conditioning   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_sdupscale.SD_4XUpscale_Conditioning'>
+PhotoMakerLoader   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_photomaker.PhotoMakerLoader'>
+PhotoMakerEncode   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/comfy_extras/nodes_photomaker.PhotoMakerEncode'>
+YANC.ConcatStrings   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/concat_strings.ConcatStrings'>
+YANC.FormatDatetimeString   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/format_datetime_string.FormatDatetimeString'>
+YANC.GetWidgetValueString   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/get_widget_value_string.GetWidgetValueString'>
+YANC.IntegerCaster   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/integer_caster.IntegerCaster'>
+YANC.MultilineString   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/multiline_string.MultilineString'>
+YANC.TruncateString   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/comfyui-yanc/nodes/truncate_string.TruncateString'>
+CM_BoolToInt   ::   <class 'ComfyMath.src.comfymath.convert.BoolToInt'>
+CM_IntToBool   ::   <class 'ComfyMath.src.comfymath.convert.IntToBool'>
+CM_FloatToInt   ::   <class 'ComfyMath.src.comfymath.convert.FloatToInt'>
+CM_IntToFloat   ::   <class 'ComfyMath.src.comfymath.convert.IntToFloat'>
+CM_IntToNumber   ::   <class 'ComfyMath.src.comfymath.convert.IntToNumber'>
+CM_NumberToInt   ::   <class 'ComfyMath.src.comfymath.convert.NumberToInt'>
+CM_FloatToNumber   ::   <class 'ComfyMath.src.comfymath.convert.FloatToNumber'>
+CM_NumberToFloat   ::   <class 'ComfyMath.src.comfymath.convert.NumberToFloat'>
+CM_ComposeVec2   ::   <class 'ComfyMath.src.comfymath.convert.ComposeVec2'>
+CM_ComposeVec3   ::   <class 'ComfyMath.src.comfymath.convert.ComposeVec3'>
+CM_ComposeVec4   ::   <class 'ComfyMath.src.comfymath.convert.ComposeVec4'>
+CM_BreakoutVec2   ::   <class 'ComfyMath.src.comfymath.convert.BreakoutVec2'>
+CM_BreakoutVec3   ::   <class 'ComfyMath.src.comfymath.convert.BreakoutVec3'>
+CM_BreakoutVec4   ::   <class 'ComfyMath.src.comfymath.convert.BreakoutVec4'>
+CM_BoolUnaryOperation   ::   <class 'ComfyMath.src.comfymath.bool.BoolUnaryOperation'>
+CM_BoolBinaryOperation   ::   <class 'ComfyMath.src.comfymath.bool.BoolBinaryOperation'>
+CM_IntUnaryOperation   ::   <class 'ComfyMath.src.comfymath.int.IntUnaryOperation'>
+CM_IntUnaryCondition   ::   <class 'ComfyMath.src.comfymath.int.IntUnaryCondition'>
+CM_IntBinaryOperation   ::   <class 'ComfyMath.src.comfymath.int.IntBinaryOperation'>
+CM_IntBinaryCondition   ::   <class 'ComfyMath.src.comfymath.int.IntBinaryCondition'>
+CM_FloatUnaryOperation   ::   <class 'ComfyMath.src.comfymath.float.FloatUnaryOperation'>
+CM_FloatUnaryCondition   ::   <class 'ComfyMath.src.comfymath.float.FloatUnaryCondition'>
+CM_FloatBinaryOperation   ::   <class 'ComfyMath.src.comfymath.float.FloatBinaryOperation'>
+CM_FloatBinaryCondition   ::   <class 'ComfyMath.src.comfymath.float.FloatBinaryCondition'>
+CM_NumberUnaryOperation   ::   <class 'ComfyMath.src.comfymath.number.NumberUnaryOperation'>
+CM_NumberUnaryCondition   ::   <class 'ComfyMath.src.comfymath.number.NumberUnaryCondition'>
+CM_NumberBinaryOperation   ::   <class 'ComfyMath.src.comfymath.number.NumberBinaryOperation'>
+CM_NumberBinaryCondition   ::   <class 'ComfyMath.src.comfymath.number.NumberBinaryCondition'>
+CM_Vec2UnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec2UnaryOperation'>
+CM_Vec2UnaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec2UnaryCondition'>
+CM_Vec2ToScalarUnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec2ToScalarUnaryOperation'>
+CM_Vec2BinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec2BinaryOperation'>
+CM_Vec2BinaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec2BinaryCondition'>
+CM_Vec2ToScalarBinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec2ToScalarBinaryOperation'>
+CM_Vec2ScalarOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec2ScalarOperation'>
+CM_Vec3UnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec3UnaryOperation'>
+CM_Vec3UnaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec3UnaryCondition'>
+CM_Vec3ToScalarUnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec3ToScalarUnaryOperation'>
+CM_Vec3BinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec3BinaryOperation'>
+CM_Vec3BinaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec3BinaryCondition'>
+CM_Vec3ToScalarBinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec3ToScalarBinaryOperation'>
+CM_Vec3ScalarOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec3ScalarOperation'>
+CM_Vec4UnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec4UnaryOperation'>
+CM_Vec4UnaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec4UnaryCondition'>
+CM_Vec4ToScalarUnaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec4ToScalarUnaryOperation'>
+CM_Vec4BinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec4BinaryOperation'>
+CM_Vec4BinaryCondition   ::   <class 'ComfyMath.src.comfymath.vec.Vec4BinaryCondition'>
+CM_Vec4ToScalarBinaryOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec4ToScalarBinaryOperation'>
+CM_Vec4ScalarOperation   ::   <class 'ComfyMath.src.comfymath.vec.Vec4ScalarOperation'>
+CM_SDXLResolution   ::   <class 'ComfyMath.src.comfymath.graphics.SDXLResolution'>
+CM_NearestSDXLResolution   ::   <class 'ComfyMath.src.comfymath.graphics.NearestSDXLResolution'>
+ModelMergeBlockNumber   ::   <class 'ComfyUI_experiments.advanced_model_merging.ModelMergeBlockNumber'>
+ReferenceOnlySimple   ::   <class 'ComfyUI_experiments.reference_only.ReferenceOnlySimple'>
+RescaleClassifierFreeGuidanceTest   ::   <class 'ComfyUI_experiments.sampler_rescalecfg.RescaleClassifierFreeGuidance'>
+ModelSamplerTonemapNoiseTest   ::   <class 'ComfyUI_experiments.sampler_tonemap.ModelSamplerTonemapNoiseTest'>
+TonemapNoiseWithRescaleCFG   ::   <class 'ComfyUI_experiments.sampler_tonemap_rescalecfg.TonemapNoiseWithRescaleCFG'>
+ModelMergeSDXL   ::   <class 'ComfyUI_experiments.sdxl_model_merging.ModelMergeSDXL'>
+ModelMergeSDXLTransformers   ::   <class 'ComfyUI_experiments.sdxl_model_merging.ModelMergeSDXLTransformers'>
+ModelMergeSDXLDetailedTransformers   ::   <class 'ComfyUI_experiments.sdxl_model_merging.ModelMergeSDXLDetailedTransformers'>
+BLIP Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_BLIP_Model_Loader'>
+Blend Latents   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Blend_Latents'>
+Bus Node   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Bus'>
+Cache Node   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Cache'>
+Checkpoint Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Checkpoint_Loader'>
+Checkpoint Loader (Simple)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Checkpoint_Loader_Simple'>
+CLIPTextEncode (NSP)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_NSP_CLIPTextEncoder'>
+CLIP Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_CLIP_Input_Switch'>
+CLIP Vision Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_CLIP_Vision_Input_Switch'>
+Conditioning Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Conditioning_Input_Switch'>
+Constant Number   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Constant_Number'>
+Create Grid Image   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Grid_Image'>
+Create Grid Image from Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Grid_Image_Batch'>
+Create Morph Image   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Morph_GIF'>
+Create Morph Image from Path   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Morph_GIF_By_Path'>
+Create Video from Path   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Create_Video_From_Path'>
+CLIPSeg Masking   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_CLIPSeg'>
+CLIPSeg Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_CLIPSeg_Model_Loader'>
+CLIPSeg Batch Masking   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_CLIPSeg_Batch'>
+Convert Masks to Images   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_To_Image'>
+Control Net Model Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Control_Net_Input_Switch'>
+Debug Number to Console   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Debug_Number_to_Console'>
+Dictionary to Console   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_To_Console'>
+Diffusers Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Diffusers_Loader'>
+Diffusers Hub Model Down-Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Diffusers_Hub_Model_Loader'>
+Export API   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Export_API'>
+Latent Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Latent_Input_Switch'>
+Load Cache   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Load_Cache'>
+Logic Boolean   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Boolean'>
+Lora Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Lora_Loader'>
+Image SSAO (Ambient Occlusion)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Ambient_Occlusion'>
+Image SSDO (Direct Occlusion)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Direct_Occlusion'>
+Image Analyze   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Analyze'>
+Image Aspect Ratio   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Aspect_Ratio'>
+Image Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Batch'>
+Image Blank   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Blank'>
+Image Blend by Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Blend_Mask'>
+Image Blend   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Blend'>
+Image Blending Mode   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Blending_Mode'>
+Image Bloom Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Bloom_Filter'>
+Image Canny Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Canny_Filter'>
+Image Chromatic Aberration   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Chromatic_Aberration'>
+Image Color Palette   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Color_Palette'>
+Image Crop Face   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Crop_Face'>
+Image Crop Location   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Crop_Location'>
+Image Crop Square Location   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Crop_Square_Location'>
+Image Displacement Warp   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Displacement_Warp'>
+Image Lucy Sharpen   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Lucy_Sharpen'>
+Image Paste Face   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Paste_Face_Crop'>
+Image Paste Crop   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Paste_Crop'>
+Image Paste Crop by Location   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Paste_Crop_Location'>
+Image Pixelate   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Pixelate'>
+Image Power Noise   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Power_Noise'>
+Image Dragan Photography Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dragon_Filter'>
+Image Edge Detection Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Edge'>
+Image Film Grain   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Film_Grain'>
+Image Filter Adjustments   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Filters'>
+Image Flip   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Flip'>
+Image Gradient Map   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Gradient_Map'>
+Image Generate Gradient   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Generate_Gradient'>
+Image High Pass Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_High_Pass_Filter'>
+Image History Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_History'>
+Image Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Input_Switch'>
+Image Levels Adjustment   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Levels'>
+Image Load   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Load_Image'>
+Image Median Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Median_Filter'>
+Image Mix RGB Channels   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_RGB_Merge'>
+Image Monitor Effects Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Monitor_Distortion_Filter'>
+Image Nova Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Nova_Filter'>
+Image Padding   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Padding'>
+Image Perlin Noise   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Perlin_Noise'>
+Image Rembg (Remove Background)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Remove_Rembg'>
+Image Perlin Power Fractal   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Perlin_Power_Fractal'>
+Image Remove Background (Alpha)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Remove_Background'>
+Image Remove Color   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Remove_Color'>
+Image Resize   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Rescale'>
+Image Rotate   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Rotate'>
+Image Rotate Hue   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Rotate_Hue'>
+Image Save   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Save'>
+Image Seamless Texture   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Make_Seamless'>
+Image Select Channel   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Select_Channel'>
+Image Select Color   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Select_Color'>
+Image Shadows and Highlights   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Shadow_And_Highlight_Adjustment'>
+Image Size to Number   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Size_To_Number'>
+Image Stitch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Stitch'>
+Image Style Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Style_Filter'>
+Image Threshold   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Threshold'>
+Image Tiled   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Tile_Batch'>
+Image Transpose   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Transpose'>
+Image fDOF Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_fDOF'>
+Image to Latent Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_To_Mask'>
+Image to Noise   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_To_Noise'>
+Image to Seed   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_To_Seed'>
+Images to RGB   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Images_To_RGB'>
+Images to Linear   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Images_To_Linear'>
+Integer place counter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Integer_Place_Counter'>
+Image Voronoi Noise Filter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Voronoi_Noise_Filter'>
+KSampler (WAS)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_KSampler'>
+KSampler Cycle   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_KSampler_Cycle'>
+Latent Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Latent_Batch'>
+Latent Noise Injection   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Latent_Noise'>
+Latent Size to Number   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Latent_Size_To_Number'>
+Latent Upscale by Factor (WAS)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Latent_Upscale'>
+Load Image Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Load_Image_Batch'>
+Load Text File   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Load_From_File'>
+Load Lora   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Lora_Loader'>
+Lora Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Lora_Input_Switch'>
+Masks Add   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Add'>
+Masks Subtract   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Subtract'>
+Mask Arbitrary Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Arbitrary_Region'>
+Mask Batch to Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Batch_to_Single_Mask'>
+Mask Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Batch'>
+Mask Ceiling Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Ceiling_Region'>
+Mask Crop Dominant Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Crop_Dominant_Region'>
+Mask Crop Minority Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Crop_Minority_Region'>
+Mask Crop Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Crop_Region'>
+Mask Paste Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Paste_Region'>
+Mask Dilate Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Dilate_Region'>
+Mask Dominant Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Dominant_Region'>
+Mask Erode Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Erode_Region'>
+Mask Fill Holes   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Fill_Region'>
+Mask Floor Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Floor_Region'>
+Mask Gaussian Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Gaussian_Region'>
+Mask Invert   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Invert'>
+Mask Minority Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Minority_Region'>
+Mask Smooth Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Smooth_Region'>
+Mask Threshold Region   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Threshold_Region'>
+Masks Combine Regions   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Combine'>
+Masks Combine Batch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Mask_Combine_Batch'>
+MiDaS Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.MiDaS_Model_Loader'>
+MiDaS Depth Approximation   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.MiDaS_Depth_Approx'>
+MiDaS Mask Image   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.MiDaS_Background_Foreground_Removal'>
+Model Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Model_Input_Switch'>
+Number Counter   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_Counter'>
+Number Operation   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_Operation'>
+Number to Float   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_To_Float'>
+Number Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_Input_Switch'>
+Number Input Condition   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_Input_Condition'>
+Number Multiple Of   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_Multiple_Of'>
+Number PI   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_PI'>
+Number to Int   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_To_Int'>
+Number to Seed   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_To_Seed'>
+Number to String   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_To_String'>
+Number to Text   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Number_To_Text'>
+Prompt Styles Selector   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Prompt_Styles_Selector'>
+Prompt Multiple Styles Selector   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Prompt_Multiple_Styles_Selector'>
+Random Number   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Random_Number'>
+Save Text File   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Save'>
+Seed   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Seed'>
+Tensor Batch to Image   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Tensor_Batch_to_Image'>
+BLIP Analyze Image   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_BLIP_Analyze_Image'>
+SAM Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_SAM_Model_Loader'>
+SAM Parameters   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_SAM_Parameters'>
+SAM Parameters Combine   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_SAM_Combine_Parameters'>
+SAM Image Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_SAM_Image_Mask'>
+Samples Passthrough (Stat System)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Samples_Passthrough_Stat_System'>
+String to Text   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_String_To_Text'>
+Image Bounds   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Bounds'>
+Inset Image Bounds   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Inset_Image_Bounds'>
+Bounded Image Blend   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Bounded_Image_Blend'>
+Bounded Image Blend with Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Bounded_Image_Blend_With_Mask'>
+Bounded Image Crop   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Bounded_Image_Crop'>
+Bounded Image Crop with Mask   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Bounded_Image_Crop_With_Mask'>
+Image Bounds to Console   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Bounds_to_Console'>
+Text Dictionary Update   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_Update'>
+Text Dictionary Get   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_Get'>
+Text Dictionary Convert   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_Convert'>
+Text Dictionary New   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_New'>
+Text Dictionary Keys   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_Keys'>
+Text Dictionary To Text   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Dictionary_to_Text'>
+Text Add Tokens   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Add_Tokens'>
+Text Add Token by Input   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Add_Token_Input'>
+Text Compare   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Compare'>
+Text Concatenate   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Concatenate'>
+Text File History Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_File_History'>
+Text Find and Replace by Dictionary   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Search_and_Replace_Dictionary'>
+Text Find and Replace Input   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Search_and_Replace_Input'>
+Text Find and Replace   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Search_and_Replace'>
+Text Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Input_Switch'>
+Text List   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_List'>
+Text List Concatenate   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_List_Concatenate'>
+Text List to Text   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_List_to_Text'>
+Text Load Line From File   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Load_Line_From_File'>
+Text Multiline   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Multiline'>
+Text Parse A1111 Embeddings   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Parse_Embeddings_By_Name'>
+Text Parse Noodle Soup Prompts   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Parse_NSP'>
+Text Parse Tokens   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Parse_Tokens'>
+Text Random Line   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Random_Line'>
+Text Random Prompt   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Random_Prompt'>
+Text String   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_String'>
+Text Shuffle   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_Shuffle'>
+Text to Conditioning   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_to_Conditioning'>
+Text to Console   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_to_Console'>
+Text to Number   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_To_Number'>
+Text to String   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_To_String'>
+Text String Truncate   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Text_String_Truncate'>
+True Random.org Number Generator   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_True_Random_Number'>
+unCLIP Checkpoint Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_unCLIP_Checkpoint_Loader'>
+Upscale Model Loader   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Upscale_Model_Loader'>
+Upscale Model Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Upscale_Model_Input_Switch'>
+Write to GIF   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Image_Morph_GIF_Writer'>
+Write to Video   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Video_Writer'>
+VAE Input Switch   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_VAE_Input_Switch'>
+Video Dump Frames   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_Video_Frame_Dump'>
+CLIPTextEncode (BlenderNeko Advanced + NSP)   ::   <class 'was-node-suite-comfyui.WAS_Node_Suite.WAS_AdvancedCLIPTextEncode'>
+WD14Tagger|pysssss   ::   <class 'ComfyUI-WD14-Tagger.wd14tagger.WD14Tagger'>
+TimestepKeyframe   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes.TimestepKeyframeNode'>
+LatentKeyframe   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_latent_keyframe.LatentKeyframeNode'>
+LatentKeyframeGroup   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_latent_keyframe.LatentKeyframeGroupNode'>
+LatentKeyframeBatchedGroup   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_latent_keyframe.LatentKeyframeBatchedGroupNode'>
+LatentKeyframeTiming   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_latent_keyframe.LatentKeyframeInterpolationNode'>
+ACN_AdvancedControlNetApply   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes.AdvancedControlNetApply'>
+ControlNetLoaderAdvanced   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes.ControlNetLoaderAdvanced'>
+DiffControlNetLoaderAdvanced   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes.DiffControlNetLoaderAdvanced'>
+ScaledSoftControlNetWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.ScaledSoftUniversalWeights'>
+ScaledSoftMaskedUniversalWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.ScaledSoftMaskedUniversalWeights'>
+SoftControlNetWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.SoftControlNetWeights'>
+CustomControlNetWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.CustomControlNetWeights'>
+SoftT2IAdapterWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.SoftT2IAdapterWeights'>
+CustomT2IAdapterWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.CustomT2IAdapterWeights'>
+ACN_DefaultUniversalWeights   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_weight.DefaultWeights'>
+ACN_SparseCtrlRGBPreprocessor   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_sparsectrl.RgbSparseCtrlPreprocessor'>
+ACN_SparseCtrlLoaderAdvanced   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_sparsectrl.SparseCtrlLoaderAdvanced'>
+ACN_SparseCtrlMergedLoaderAdvanced   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_sparsectrl.SparseCtrlMergedLoaderAdvanced'>
+ACN_SparseCtrlIndexMethodNode   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_sparsectrl.SparseIndexMethodNode'>
+ACN_SparseCtrlSpreadMethodNode   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_sparsectrl.SparseSpreadMethodNode'>
+LoadImagesFromDirectory   ::   <class 'ComfyUI-Advanced-ControlNet.adv_control.nodes_deprecated.LoadImagesFromDirectory'>
+Robust Video Matting   ::   <class 'comfyui_vidmatt.robust_video_matting.RobustVideoMatting'>
+BRIAAI Matting   ::   <class 'comfyui_vidmatt.briaai_rembg.BriaaiRembg'>
+ReActorFaceSwap   ::   <class 'comfyui_reactor_node.nodes.reactor'>
+ReActorLoadFaceModel   ::   <class 'comfyui_reactor_node.nodes.LoadFaceModel'>
+ReActorSaveFaceModel   ::   <class 'comfyui_reactor_node.nodes.SaveFaceModel'>
+ReActorRestoreFace   ::   <class 'comfyui_reactor_node.nodes.RestoreFace'>
+VHS_VideoCombine   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.nodes.VideoCombine'>
+VHS_LoadVideo   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.load_video_nodes.LoadVideoUpload'>
+VHS_LoadVideoPath   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.load_video_nodes.LoadVideoPath'>
+VHS_LoadImages   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.load_images_nodes.LoadImagesFromDirectoryUpload'>
+VHS_LoadImagesPath   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.load_images_nodes.LoadImagesFromDirectoryPath'>
+VHS_LoadAudio   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.nodes.LoadAudio'>
+VHS_PruneOutputs   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.nodes.PruneOutputs'>
+VHS_SplitLatents   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SplitLatents'>
+VHS_SplitImages   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SplitImages'>
+VHS_SplitMasks   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SplitMasks'>
+VHS_MergeLatents   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.MergeLatents'>
+VHS_MergeImages   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.MergeImages'>
+VHS_MergeMasks   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.MergeMasks'>
+VHS_SelectEveryNthLatent   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SelectEveryNthLatent'>
+VHS_SelectEveryNthImage   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SelectEveryNthImage'>
+VHS_SelectEveryNthMask   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.SelectEveryNthMask'>
+VHS_GetLatentCount   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.GetLatentCount'>
+VHS_GetImageCount   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.GetImageCount'>
+VHS_GetMaskCount   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.GetMaskCount'>
+VHS_DuplicateLatents   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.DuplicateLatents'>
+VHS_DuplicateImages   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.DuplicateImages'>
+VHS_DuplicateMasks   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.image_latent_nodes.DuplicateMasks'>
+VHS_VAEEncodeBatched   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.batched_nodes.VAEEncodeBatched'>
+VHS_VAEDecodeBatched   ::   <class 'ComfyUI-VideoHelperSuite.videohelpersuite.batched_nodes.VAEDecodeBatched'>
+MaskListcaptoBatch   ::   <class 'ComfyUI-fastblend.masknumcap.MaskListcaptoBatch'>
+MyOpenPoseNode   ::   <class 'ComfyUI-fastblend.myopenpose.MyOpenPoseNode'>
+FillDarkMask   ::   <class 'ComfyUI-fastblend.filldarkmask.FillDarkMask'>
+InterpolateKeyFrame   ::   <class 'ComfyUI-fastblend.interpolatekeyframe.InterpolateKeyFrame'>
+SmoothVideo   ::   <class 'ComfyUI-fastblend.smoothVideo.SmoothVideo'>
+reBatchImage   ::   <class 'ComfyUI-fastblend.rebatchimage.reBatchImage'>
+Lerp   ::   <class 'ComfyUI_FizzNodes.WaveNodes.Lerp'>
+SinWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.SinWave'>
+InvSinWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.InvSinWave'>
+CosWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.CosWave'>
+InvCosWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.InvCosWave'>
+SquareWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.SquareWave'>
+SawtoothWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.SawtoothWave'>
+TriangleWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.TriangleWave'>
+AbsCosWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.AbsCosWave'>
+AbsSinWave   ::   <class 'ComfyUI_FizzNodes.WaveNodes.AbsSinWave'>
+PromptSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.PromptSchedule'>
+ValueSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.ValueSchedule'>
+PromptScheduleNodeFlow   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.PromptScheduleNodeFlow'>
+PromptScheduleNodeFlowEnd   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.PromptScheduleNodeFlowEnd'>
+PromptScheduleEncodeSDXL   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.PromptScheduleEncodeSDXL'>
+StringSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.StringSchedule'>
+BatchPromptSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchPromptSchedule'>
+BatchValueSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchValueSchedule'>
+BatchPromptScheduleEncodeSDXL   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchPromptScheduleEncodeSDXL'>
+BatchStringSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchStringSchedule'>
+BatchValueScheduleLatentInput   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchValueScheduleLatentInput'>
+BatchPromptScheduleSDXLLatentInput   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchPromptScheduleEncodeSDXLLatentInput'>
+BatchPromptScheduleLatentInput   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.BatchPromptScheduleLatentInput'>
+ImageBatchFromValueSchedule   ::   <class 'ComfyUI_FizzNodes.ScheduledNodes.ImageBatchFromValueSchedule'>
+StringConcatenate   ::   <class 'ComfyUI_FizzNodes.FrameNodes.StringConcatenate'>
+Init FizzFrame   ::   <class 'ComfyUI_FizzNodes.FrameNodes.InitNodeFrame'>
+FizzFrame   ::   <class 'ComfyUI_FizzNodes.FrameNodes.NodeFrame'>
+FizzFrameConcatenate   ::   <class 'ComfyUI_FizzNodes.FrameNodes.FrameConcatenate'>
+ConcatStringSingle   ::   <class 'ComfyUI_FizzNodes.HelperNodes.ConcatStringSingle'>
+convertKeyframeKeysToBatchKeys   ::   <class 'ComfyUI_FizzNodes.HelperNodes.convertKeyframeKeysToBatchKeys'>
+CalculateFrameOffset   ::   <class 'ComfyUI_FizzNodes.HelperNodes.CalculateFrameOffset'>
+Image Remove Background (rembg)   ::   <class 'rembg-comfyui-node.ImageRemoveBackgroundRembg'>
+KSampler (Efficient)   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_KSampler'>
+KSampler Adv. (Efficient)   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_KSamplerAdvanced'>
+KSampler SDXL (Eff.)   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_KSamplerSDXL'>
+Efficient Loader   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EfficientLoader'>
+Eff. Loader SDXL   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EfficientLoaderSDXL'>
+LoRA Stacker   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_LoRA_Stacker'>
+Control Net Stacker   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Control_Net_Stacker'>
+Apply ControlNet Stack   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Apply_ControlNet_Stack'>
+Unpack SDXL Tuple   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Unpack_SDXL_Tuple'>
+Pack SDXL Tuple   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Pack_SDXL_Tuple'>
+XY Plot   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot'>
+XY Input: Seeds++ Batch   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_SeedsBatch'>
+XY Input: Add/Return Noise   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_AddReturnNoise'>
+XY Input: Steps   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Steps'>
+XY Input: CFG Scale   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_CFG'>
+XY Input: Sampler/Scheduler   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Sampler_Scheduler'>
+XY Input: Denoise   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Denoise'>
+XY Input: VAE   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_VAE'>
+XY Input: Prompt S/R   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_PromptSR'>
+XY Input: Aesthetic Score   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_AScore'>
+XY Input: Refiner On/Off   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Refiner_OnOff'>
+XY Input: Checkpoint   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Checkpoint'>
+XY Input: Clip Skip   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_ClipSkip'>
+XY Input: LoRA   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_LoRA'>
+XY Input: LoRA Plot   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_LoRA_Plot'>
+XY Input: LoRA Stacks   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_LoRA_Stacks'>
+XY Input: Control Net   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Control_Net'>
+XY Input: Control Net Plot   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Control_Net_Plot'>
+XY Input: Manual XY Entry   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Manual_XY_Entry'>
+Manual XY Entry Info   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_Manual_XY_Entry_Info'>
+Join XY Inputs of Same Type   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_XYplot_JoinInputs'>
+Image Overlay   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_ImageOverlay'>
+Noise Control Script   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Noise_Control_Script'>
+HighRes-Fix Script   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_HighRes_Fix'>
+Tiled Upscaler Script   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_Tiled_Upscaler'>
+LoRA Stack to String converter   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_LoRA_Stack2String'>
+Evaluate Integers   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EvaluateInts'>
+Evaluate Floats   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EvaluateFloats'>
+Evaluate Strings   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EvaluateStrs'>
+Simple Eval Examples   ::   <class 'efficiency-nodes-comfyui.efficiency_nodes.TSC_EvalExamples'>
+Context Big (rgthree)   ::   <class 'rgthree-comfy.py.context_big.RgthreeBigContext'>
+Context (rgthree)   ::   <class 'rgthree-comfy.py.context.RgthreeContext'>
+Context Switch (rgthree)   ::   <class 'rgthree-comfy.py.context_switch.RgthreeContextSwitch'>
+Context Switch Big (rgthree)   ::   <class 'rgthree-comfy.py.context_switch_big.RgthreeContextSwitchBig'>
+Display Int (rgthree)   ::   <class 'rgthree-comfy.py.display_any.RgthreeDisplayInt'>
+Display Any (rgthree)   ::   <class 'rgthree-comfy.py.display_any.RgthreeDisplayAny'>
+Lora Loader Stack (rgthree)   ::   <class 'rgthree-comfy.py.lora_stack.RgthreeLoraLoaderStack'>
+Seed (rgthree)   ::   <class 'rgthree-comfy.py.seed.RgthreeSeed'>
+Image Inset Crop (rgthree)   ::   <class 'rgthree-comfy.py.image_inset_crop.RgthreeImageInsetCrop'>
+Power Prompt (rgthree)   ::   <class 'rgthree-comfy.py.power_prompt.RgthreePowerPrompt'>
+Power Prompt - Simple (rgthree)   ::   <class 'rgthree-comfy.py.power_prompt_simple.RgthreePowerPromptSimple'>
+KSampler Config (rgthree)   ::   <class 'rgthree-comfy.py.ksampler_config.RgthreeKSamplerConfig'>
+SDXL Empty Latent Image (rgthree)   ::   <class 'rgthree-comfy.py.sdxl_empty_latent_image.RgthreeSDXLEmptyLatentImage'>
+SDXL Power Prompt - Positive (rgthree)   ::   <class 'rgthree-comfy.py.sdxl_power_prompt_postive.RgthreeSDXLPowerPromptPositive'>
+SDXL Power Prompt - Simple / Negative (rgthree)   ::   <class 'rgthree-comfy.py.sdxl_power_prompt_simple.RgthreeSDXLPowerPromptSimple'>
+Any Switch (rgthree)   ::   <class 'rgthree-comfy.py.any_switch.RgthreeAnySwitch'>
+Context Merge (rgthree)   ::   <class 'rgthree-comfy.py.context_merge.RgthreeContextMerge'>
+Context Merge Big (rgthree)   ::   <class 'rgthree-comfy.py.context_merge_big.RgthreeContextMergeBig'>
+Image Comparer (rgthree)   ::   <class 'rgthree-comfy.py.image_comparer.RgthreeImageComparer'>
+SAMModelLoader (segment anything)   ::   <class 'comfyui_segment_anything.node.SAMModelLoader'>
+GroundingDinoModelLoader (segment anything)   ::   <class 'comfyui_segment_anything.node.GroundingDinoModelLoader'>
+GroundingDinoSAMSegment (segment anything)   ::   <class 'comfyui_segment_anything.node.GroundingDinoSAMSegment'>
+InvertMask (segment anything)   ::   <class 'comfyui_segment_anything.node.InvertMask'>
+IsMaskEmpty   ::   <class 'comfyui_segment_anything.node.IsMaskEmptyNode'>
+Checkpoint Selector   ::   <class 'comfy-image-saver.nodes.CheckpointSelector'>
+Save Image w/Metadata   ::   <class 'comfy-image-saver.nodes.ImageSaveWithMetadata'>
+Sampler Selector   ::   <class 'comfy-image-saver.nodes.SamplerSelector'>
+Scheduler Selector   ::   <class 'comfy-image-saver.nodes.SchedulerSelector'>
+Seed Generator   ::   <class 'comfy-image-saver.nodes.SeedGenerator'>
+String Literal   ::   <class 'comfy-image-saver.nodes.StringLiteral'>
+Width/Height Literal   ::   <class 'comfy-image-saver.nodes.SizeLiteral'>
+Cfg Literal   ::   <class 'comfy-image-saver.nodes.CfgLiteral'>
+Int Literal   ::   <class 'comfy-image-saver.nodes.IntLiteral'>
+BNK_CLIPTextEncodeAdvanced   ::   <class 'ComfyUI_ADV_CLIP_emb.nodes.AdvancedCLIPTextEncode'>
+BNK_CLIPTextEncodeSDXLAdvanced   ::   <class 'ComfyUI_ADV_CLIP_emb.nodes.AdvancedCLIPTextEncodeSDXL'>
+BNK_AddCLIPSDXLParams   ::   <class 'ComfyUI_ADV_CLIP_emb.nodes.AddCLIPSDXLParams'>
+BNK_AddCLIPSDXLRParams   ::   <class 'ComfyUI_ADV_CLIP_emb.nodes.AddCLIPSDXLRParams'>
+LoraLoader|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/better_combos.LoraLoaderWithImages'>
+CheckpointLoader|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/better_combos.CheckpointLoaderSimpleWithImages'>
+PlaySound|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/play_sound.PlaySound'>
+ConstrainImageforVideo|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/constrain_image_for_video.ConstrainImageforVideo'>
+MathExpression|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/math_expression.MathExpression'>
+LoadText|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/text_files.LoadText'>
+SaveText|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/text_files.SaveText'>
+Repeater|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/repeater.Repeater'>
+ShowText|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/show_text.ShowText'>
+StringFunction|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/string_function.StringFunction'>
+ReroutePrimitive|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/reroute_primitive.ReroutePrimitive'>
+ConstrainImage|pysssss   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts/py/constrain_image.ConstrainImage'>
+AppInfo   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.AppInfo'>
+TESTNODE_   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.TESTNODE_'>
+RandomPrompt   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.RandomPrompt'>
+EmbeddingPrompt   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.EmbeddingPrompt'>
+PromptSlide   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.PromptSlide'>
+PromptSimplification   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.PromptSimplification'>
+PromptImage   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.PromptImage'>
+MirroredImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.MirroredImage'>
+NoiseImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.NoiseImage'>
+GradientImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.GradientImage'>
+TransparentImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.TransparentImage'>
+ResizeImageMixlab   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.ResizeImage'>
+LoadImagesFromPath   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.LoadImagesFromPath'>
+LoadImagesFromURL   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.LoadImagesFromURL'>
+TextImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.TextImage'>
+EnhanceImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.EnhanceImage'>
+SvgImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.SvgImage'>
+3DImage   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.Image3D'>
+ImageColorTransfer   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.ImageColorTransfer'>
+ShowLayer   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.ShowLayer'>
+NewLayer   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.NewLayer'>
+MergeLayers   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.MergeLayers'>
+SplitLongMask   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.SplitLongMask'>
+FeatheredMask   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.FeatheredMask'>
+SmoothMask   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.SmoothMask'>
+FaceToMask   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.FaceToMask'>
+AreaToMask   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.AreaToMask'>
+ImageCropByAlpha   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.ImageCropByAlpha'>
+VAELoaderConsistencyDecoder   ::   <class 'comfyui-mixlab-nodes.nodes.Vae.VAELoader'>
+VAEDecodeConsistencyDecoder   ::   <class 'comfyui-mixlab-nodes.nodes.Vae.VAEDecode'>
+ScreenShare   ::   <class 'comfyui-mixlab-nodes.nodes.ScreenShareNode.ScreenShareNode'>
+FloatingVideo   ::   <class 'comfyui-mixlab-nodes.nodes.ScreenShareNode.FloatingVideo'>
+CLIPSeg_   ::   <class 'comfyui-mixlab-nodes.nodes.Clipseg.CLIPSeg'>
+CombineMasks_   ::   <class 'comfyui-mixlab-nodes.nodes.Clipseg.CombineMasks'>
+ChatGPTOpenAI   ::   <class 'comfyui-mixlab-nodes.nodes.ChatGPT.ChatGPTNode'>
+ShowTextForGPT   ::   <class 'comfyui-mixlab-nodes.nodes.ChatGPT.ShowTextForGPT'>
+CharacterInText   ::   <class 'comfyui-mixlab-nodes.nodes.ChatGPT.CharacterInText'>
+SpeechRecognition   ::   <class 'comfyui-mixlab-nodes.nodes.Audio.SpeechRecognition'>
+SpeechSynthesis   ::   <class 'comfyui-mixlab-nodes.nodes.Audio.SpeechSynthesis'>
+Color   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.ColorInput'>
+FloatSlider   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.FloatSlider'>
+IntNumber   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.IntNumber'>
+TextInput_   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.TextInput'>
+Font   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.FontInput'>
+TextToNumber   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.TextToNumber'>
+DynamicDelayProcessor   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.DynamicDelayProcessor'>
+MultiplicationNode   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.MultiplicationNode'>
+GetImageSize_   ::   <class 'comfyui-mixlab-nodes.nodes.ImageNode.GetImageSize_'>
+SwitchByIndex   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.SwitchByIndex'>
+LimitNumber   ::   <class 'comfyui-mixlab-nodes.nodes.Utils.LimitNumber'>
+OutlineMask   ::   <class 'comfyui-mixlab-nodes.nodes.Mask.OutlineMask'>
+JoinWithDelimiter   ::   <class 'comfyui-mixlab-nodes.nodes.PromptNode.JoinWithDelimiter'>
+LaMaInpainting   ::   <class 'comfyui-mixlab-nodes.nodes.Lama.LaMaInpainting'>
+ClipInterrogator   ::   <class 'comfyui-mixlab-nodes.nodes.ClipInterrogator.ClipInterrogator'>
+PromptGenerate_Mix   ::   <class 'comfyui-mixlab-nodes.nodes.TextGenerateNode.PromptGenerate'>
+ChinesePrompt_Mix   ::   <class 'comfyui-mixlab-nodes.nodes.TextGenerateNode.ChinesePrompt'>
+RembgNode_Mix   ::   <class 'comfyui-mixlab-nodes.nodes.RembgNode.RembgNode_'>
+LatentCombine   ::   <class 'images-grid-comfy-plugin.src.nodes.latent_combine.LatentCombineNode'>
+ImagesGridByColumns   ::   <class 'images-grid-comfy-plugin.src.nodes.images_grid.ImagesGridByColumnsNode'>
+ImagesGridByRows   ::   <class 'images-grid-comfy-plugin.src.nodes.images_grid.ImagesGridByRowsNode'>
+ImageCombine   ::   <class 'images-grid-comfy-plugin.src.nodes.image_combine.ImageCombineNode'>
+GridAnnotation   ::   <class 'images-grid-comfy-plugin.src.nodes.grid_annotation.GridAnnotationNode'>
+ArithmeticBlend   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.ArithmeticBlend'>
+AsciiArt   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.AsciiArt'>
+Blend   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Blend'>
+Blur   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Blur'>
+CannyEdgeMask   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.CannyEdgeMask'>
+ChromaticAberration   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.ChromaticAberration'>
+ColorCorrect   ::   <class 'comfyui-art-venture.modules.postprocessing.color_correct.ColorCorrect'>
+ColorTint   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.ColorTint'>
+Dissolve   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Dissolve'>
+DodgeAndBurn   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.DodgeAndBurn'>
+FilmGrain   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.FilmGrain'>
+Glow   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Glow'>
+HSVThresholdMask   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.HSVThresholdMask'>
+KuwaharaBlur   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.KuwaharaBlur'>
+Parabolize   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Parabolize'>
+PencilSketch   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.PencilSketch'>
+PixelSort   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.PixelSort'>
+Pixelize   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Pixelize'>
+Quantize   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Quantize'>
+Sharpen   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Sharpen'>
+SineWave   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.SineWave'>
+Solarize   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Solarize'>
+Vignette   ::   <class 'ComfyUI-post-processing-nodes.post_processing_nodes.Vignette'>
+BNK_NoisyLatentImage   ::   <class 'ComfyUI_Noise.nodes.NoisyLatentImage'>
+BNK_SlerpLatent   ::   <class 'ComfyUI_Noise.nodes.LatentSlerp'>
+BNK_GetSigma   ::   <class 'ComfyUI_Noise.nodes.GetSigma'>
+BNK_InjectNoise   ::   <class 'ComfyUI_Noise.nodes.InjectNoise'>
+BNK_Unsampler   ::   <class 'ComfyUI_Noise.nodes.Unsampler'>
+Checkpoint Loader w/Name (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Checkpoint_Loader_Model_Name'>
+KSamplerAdvanced (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_KSamplerAdvanced'>
+CLIP Positive-Negative (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_CLIP_Positive_Negative'>
+CLIP Positive-Negative w/Text (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_CLIP_Text_Positive_Negative'>
+CLIP Positive-Negative XL (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_CLIP_Positive_Negative_XL'>
+CLIP Positive-Negative XL w/Text (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_CLIP_Text_Positive_Negative_XL'>
+CLIP +/- w/Text Unified (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_CLIP_Text_Unified'>
+Empty Latent by Pixels (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Empty_Latent_Image_By_Pixels'>
+Empty Latent by Ratio (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Empty_Latent_Image_By_Ratio'>
+Empty Latent by Size (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Empty_Latent_Image_By_Resolution'>
+SDXL Quick Empty Latent (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_SDXL_Quick_Empty_Latent'>
+Image Load with Metadata (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Read_Prompt'>
+Grayscale Image (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Grayscale'>
+Generate Border Mask (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Generate_Edge_Mask'>
+Outpaint to Image (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Outpaint_To_Image'>
+VAE Encode for Inpaint w/Padding (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_VAE_Encode_For_Inpaint_Padding'>
+Image Scale By Factor (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Scale_By_Factor'>
+Image Scale by Shortside (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Scale_By_Shortside'>
+SDXL Quick Image Scale (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_SDXL_Quick_Image_Scale'>
+Upscale by Factor with Model (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Upscale_By_Factor_With_Model'>
+Multiply Integer (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Int_Multiply'>
+Quick Resolution Multiply (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Res_Multiply'>
+Resolutions by Ratio (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Resolutions_by_Ratio'>
+Seed to Number (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Seed_to_Number'>
+Seed and Int (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Seed_and_Int'>
+SDXL Steps (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_SDXL_Steps'>
+SDXL Resolutions (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_SDXL_Resolutions'>
+Build Filename String (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Build_Filename_String'>
+Time String (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Time_String'>
+Simple Pattern Replace (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Simple_Pattern_Replace'>
+Simple String Combine (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_String_Append'>
+Prompt Weight (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Prompt_Weight'>
+Image Save with Prompt (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Save_With_Prompt'>
+Image Save with Prompt/Info (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Save_With_Prompt_Info'>
+Image Save with Prompt File (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Save_With_File'>
+Image Save with Prompt/Info File (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Image_Save_With_File_Info'>
+Save Prompt (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Save_Prompt_File'>
+Save Prompt/Info (WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Save_Prompt_File_Info'>
+Save Positive Prompt(WLSH)   ::   <class 'wlsh_nodes.wlsh_nodes.WLSH_Save_Positive_Prompt_File'>
+ADE_AnimateDiffLoRALoader   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes.AnimateDiffLoraLoader'>
+ADE_AnimateDiffSamplingSettings   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.SampleSettingsNode'>
+ADE_AnimateDiffKeyframe   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen2.ADKeyframeNode'>
+ADE_MultivalDynamic   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_multival.MultivalDynamicNode'>
+ADE_MultivalScaledMask   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_multival.MultivalScaledMaskNode'>
+ADE_StandardStaticContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.StandardStaticContextOptionsNode'>
+ADE_StandardUniformContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.StandardUniformContextOptionsNode'>
+ADE_LoopedUniformContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.LoopedUniformContextOptionsNode'>
+ADE_ViewsOnlyContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.ViewAsContextOptionsNode'>
+ADE_BatchedContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.BatchedContextOptionsNode'>
+ADE_AnimateDiffUniformContextOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.LegacyLoopedUniformContextOptionsNode'>
+ADE_StandardStaticViewOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.StandardStaticViewOptionsNode'>
+ADE_StandardUniformViewOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.StandardUniformViewOptionsNode'>
+ADE_LoopedUniformViewOptions   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_context.LoopedUniformViewOptionsNode'>
+ADE_IterationOptsDefault   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.IterationOptionsNode'>
+ADE_IterationOptsFreeInit   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.FreeInitOptionsNode'>
+ADE_NoiseLayerAdd   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.NoiseLayerAddNode'>
+ADE_NoiseLayerAddWeighted   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.NoiseLayerAddWeightedNode'>
+ADE_NoiseLayerReplace   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_sample.NoiseLayerReplaceNode'>
+ADE_AnimateDiffSettings   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_ad_settings.AnimateDiffSettingsNode'>
+ADE_AdjustPESweetspotStretch   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_ad_settings.SweetspotStretchPENode'>
+ADE_AdjustPEFullStretch   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_ad_settings.FullStretchPENode'>
+ADE_AdjustPEManual   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_ad_settings.ManualAdjustPENode'>
+ADE_AnimateDiffUnload   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_extras.AnimateDiffUnload'>
+ADE_EmptyLatentImageLarge   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_extras.EmptyLatentImageLarge'>
+CheckpointLoaderSimpleWithNoiseSelect   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_extras.CheckpointLoaderSimpleWithNoiseSelect'>
+ADE_AnimateDiffLoaderGen1   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.AnimateDiffLoaderGen1'>
+ADE_AnimateDiffLoaderWithContext   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.LegacyAnimateDiffLoaderWithContext'>
+ADE_AnimateDiffModelSettings_Release   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.AnimateDiffModelSettings'>
+ADE_AnimateDiffModelSettingsSimple   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.AnimateDiffModelSettingsSimple'>
+ADE_AnimateDiffModelSettings   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.AnimateDiffModelSettingsAdvanced'>
+ADE_AnimateDiffModelSettingsAdvancedAttnStrengths   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen1.AnimateDiffModelSettingsAdvancedAttnStrengths'>
+ADE_UseEvolvedSampling   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen2.UseEvolvedSamplingNode'>
+ADE_ApplyAnimateDiffModelSimple   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen2.ApplyAnimateDiffModelBasicNode'>
+ADE_ApplyAnimateDiffModel   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen2.ApplyAnimateDiffModelNode'>
+ADE_LoadAnimateDiffModel   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_gen2.LoadAnimateDiffModelNode'>
+AnimateDiffLoaderV1   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_deprecated.AnimateDiffLoader_Deprecated'>
+ADE_AnimateDiffLoaderV1Advanced   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_deprecated.AnimateDiffLoaderAdvanced_Deprecated'>
+ADE_AnimateDiffCombine   ::   <class 'ComfyUI_AnimateDiff_Evolved.animatediff.nodes_deprecated.AnimateDiffCombine_Deprecated'>
+Float   ::   <class 'ComfyUI-Logic.nodes.Float'>
+Integer   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Custom.Types.IntegerNode'>
+Text   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Custom.Types.StringNode'>
+Text box   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Custom.Types.MultilineStringNode'>
+Float debug print   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Debug.Debug.DebugNodeFloat'>
+Int debug print   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Debug.Debug.DebugNodeInt'>
+Tuple debug print   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Debug.Debug.DebugNodeTuple'>
+String debug print   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Debug.Debug.DebugNodeString'>
+Random   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Random.RandomValue'>
+Tuple   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.Tuple'>
+Int to tuple   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.Int2Tuple'>
+Tuple to floats   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.Tuple2Float'>
+Tuple to ints   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.Tuple2Int'>
+Tuple swap   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.FlipTuple'>
+Tuple multiply   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Tuples.MultiplyTupleBy'>
+Int to float   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Converters.Int2Float'>
+Ceil   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Converters.CeilNode'>
+Floor   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Converters.FloorNode'>
+Absolute value   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.Converters.ABSNode'>
+Get latent size   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.GetSizes.GetLatentSize'>
+Get image size   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Functions.GetSizes.GetImageSize'>
+Sum   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.SumNode'>
+Subtract   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.SubtractNode'>
+Multiply   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.MultiplyNode'>
+Divide   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.DivideNode'>
+Power   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.PowNode'>
+Square root   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.SimpleMath.SquareRootNode'>
+Sinus   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.Trigonometry.SinNode'>
+Cosines   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.Trigonometry.CosNode'>
+Tangent   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Math.Trigonometry.tgNode'>
+Latent Scale by ratio   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.StandardInputs.Latents.LatentScale_Ratio'>
+Latent Scale to side   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.StandardInputs.Latents.LatentScale_Side'>
+Image scale by ratio   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.StandardInputs.Images.ImageScale_Ratio'>
+Image scale to side   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.StandardInputs.Images.ImageScale_Side'>
+Conditioning area scale by ratio   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.StandardInputs.Condotionig.ConditioningAreaScale_Ratio'>
+ConditioningSetArea with tuples   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.TuplesUsed.Conditioning.ConditioningSetArea'>
+LatentComposite with tuples   ::   <class 'custom_nodes.Derfuu_ComfyUI_ModdedNodes.Nodes.Modded.TuplesUsed.Latents.LatentComposite'>
+INTConstant   ::   <class 'ComfyUI-KJNodes.nodes.INTConstant'>
+FloatConstant   ::   <class 'ComfyUI-KJNodes.nodes.FloatConstant'>
+ConditioningMultiCombine   ::   <class 'ComfyUI-KJNodes.nodes.ConditioningMultiCombine'>
+ConditioningSetMaskAndCombine   ::   <class 'ComfyUI-KJNodes.nodes.ConditioningSetMaskAndCombine'>
+ConditioningSetMaskAndCombine3   ::   <class 'ComfyUI-KJNodes.nodes.ConditioningSetMaskAndCombine3'>
+ConditioningSetMaskAndCombine4   ::   <class 'ComfyUI-KJNodes.nodes.ConditioningSetMaskAndCombine4'>
+ConditioningSetMaskAndCombine5   ::   <class 'ComfyUI-KJNodes.nodes.ConditioningSetMaskAndCombine5'>
+GrowMaskWithBlur   ::   <class 'ComfyUI-KJNodes.nodes.GrowMaskWithBlur'>
+ColorToMask   ::   <class 'ComfyUI-KJNodes.nodes.ColorToMask'>
+CreateGradientMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateGradientMask'>
+CreateTextMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateTextMask'>
+CreateAudioMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateAudioMask'>
+CreateFadeMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateFadeMask'>
+CreateFadeMaskAdvanced   ::   <class 'ComfyUI-KJNodes.nodes.CreateFadeMaskAdvanced'>
+CreateFluidMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateFluidMask'>
+VRAM_Debug   ::   <class 'ComfyUI-KJNodes.nodes.VRAM_Debug'>
+SomethingToString   ::   <class 'ComfyUI-KJNodes.nodes.SomethingToString'>
+CrossFadeImages   ::   <class 'ComfyUI-KJNodes.nodes.CrossFadeImages'>
+EmptyLatentImagePresets   ::   <class 'ComfyUI-KJNodes.nodes.EmptyLatentImagePresets'>
+ColorMatch   ::   <class 'ComfyUI-KJNodes.nodes.ColorMatch'>
+GetImageRangeFromBatch   ::   <class 'ComfyUI-KJNodes.nodes.GetImageRangeFromBatch'>
+SaveImageWithAlpha   ::   <class 'ComfyUI-KJNodes.nodes.SaveImageWithAlpha'>
+ReverseImageBatch   ::   <class 'ComfyUI-KJNodes.nodes.ReverseImageBatch'>
+ImageGridComposite2x2   ::   <class 'ComfyUI-KJNodes.nodes.ImageGridComposite2x2'>
+ImageGridComposite3x3   ::   <class 'ComfyUI-KJNodes.nodes.ImageGridComposite3x3'>
+ImageConcanate   ::   <class 'ComfyUI-KJNodes.nodes.ImageConcanate'>
+ImageBatchTestPattern   ::   <class 'ComfyUI-KJNodes.nodes.ImageBatchTestPattern'>
+ReplaceImagesInBatch   ::   <class 'ComfyUI-KJNodes.nodes.ReplaceImagesInBatch'>
+BatchCropFromMask   ::   <class 'ComfyUI-KJNodes.nodes.BatchCropFromMask'>
+BatchCropFromMaskAdvanced   ::   <class 'ComfyUI-KJNodes.nodes.BatchCropFromMaskAdvanced'>
+FilterZeroMasksAndCorrespondingImages   ::   <class 'ComfyUI-KJNodes.nodes.FilterZeroMasksAndCorrespondingImages'>
+InsertImageBatchByIndexes   ::   <class 'ComfyUI-KJNodes.nodes.InsertImageBatchByIndexes'>
+BatchUncrop   ::   <class 'ComfyUI-KJNodes.nodes.BatchUncrop'>
+BatchUncropAdvanced   ::   <class 'ComfyUI-KJNodes.nodes.BatchUncropAdvanced'>
+BatchCLIPSeg   ::   <class 'ComfyUI-KJNodes.nodes.BatchCLIPSeg'>
+RoundMask   ::   <class 'ComfyUI-KJNodes.nodes.RoundMask'>
+ResizeMask   ::   <class 'ComfyUI-KJNodes.nodes.ResizeMask'>
+OffsetMask   ::   <class 'ComfyUI-KJNodes.nodes.OffsetMask'>
+WidgetToString   ::   <class 'ComfyUI-KJNodes.nodes.WidgetToString'>
+CreateShapeMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateShapeMask'>
+CreateVoronoiMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateVoronoiMask'>
+CreateMagicMask   ::   <class 'ComfyUI-KJNodes.nodes.CreateMagicMask'>
+BboxToInt   ::   <class 'ComfyUI-KJNodes.nodes.BboxToInt'>
+SplitBboxes   ::   <class 'ComfyUI-KJNodes.nodes.SplitBboxes'>
+ImageGrabPIL   ::   <class 'ComfyUI-KJNodes.nodes.ImageGrabPIL'>
+DummyLatentOut   ::   <class 'ComfyUI-KJNodes.nodes.DummyLatentOut'>
+NormalizeLatent   ::   <class 'ComfyUI-KJNodes.nodes.NormalizeLatent'>
+FlipSigmasAdjusted   ::   <class 'ComfyUI-KJNodes.nodes.FlipSigmasAdjusted'>
+InjectNoiseToLatent   ::   <class 'ComfyUI-KJNodes.nodes.InjectNoiseToLatent'>
+AddLabel   ::   <class 'ComfyUI-KJNodes.nodes.AddLabel'>
+ReferenceOnlySimple3   ::   <class 'ComfyUI-KJNodes.nodes.ReferenceOnlySimple3'>
+SoundReactive   ::   <class 'ComfyUI-KJNodes.nodes.SoundReactive'>
+GenerateNoise   ::   <class 'ComfyUI-KJNodes.nodes.GenerateNoise'>
+StableZero123_BatchSchedule   ::   <class 'ComfyUI-KJNodes.nodes.StableZero123_BatchSchedule'>
+GetImagesFromBatchIndexed   ::   <class 'ComfyUI-KJNodes.nodes.GetImagesFromBatchIndexed'>
+ImageBatchRepeatInterleaving   ::   <class 'ComfyUI-KJNodes.nodes.ImageBatchRepeatInterleaving'>
+SDXLPromptStyler   ::   <class 'comfyui-art-venture.modules.sdxl_prompt_styler.sdxl_prompt_styler.SDXLPromptStyler'>
+SDXLPromptStylerAdvanced   ::   <class 'sdxl_prompt_styler.sdxl_prompt_styler.SDXLPromptStylerAdvanced'>
+IPAdapterModelLoader   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterModelLoader'>
+IPAdapterApply   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterApply'>
+IPAdapterApplyFaceID   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterApplyFaceID'>
+IPAdapterApplyEncoded   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterApplyEncoded'>
+PrepImageForClipVision   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.PrepImageForClipVision'>
+IPAdapterEncoder   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterEncoder'>
+IPAdapterSaveEmbeds   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterSaveEmbeds'>
+IPAdapterLoadEmbeds   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterLoadEmbeds'>
+IPAdapterBatchEmbeds   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.IPAdapterBatchEmbeds'>
+InsightFaceLoader   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.InsightFaceLoader'>
+PrepImageForInsightFace   ::   <class 'ComfyUI_IPAdapter_plus.IPAdapterPlus.PrepImageForInsightFace'>
+SeargeTextInputV2   ::   <class 'SeargeSDXL.modules.prompt_text_input.SeargeTextInputV2'>
+SeargePromptAdapterV2   ::   <class 'SeargeSDXL.modules.prompt_adapter.SeargePromptAdapterV2'>
+SeargeImageAdapterV2   ::   <class 'SeargeSDXL.modules.image_adapter.SeargeImageAdapterV2'>
+SeargeControlnetAdapterV2   ::   <class 'SeargeSDXL.modules.controlnet_adapter.SeargeControlnetAdapterV2'>
+SeargeSeparator   ::   <class 'SeargeSDXL.modules.ui_separator.SeargeSeparator'>
+SeargePreviewImage   ::   <class 'SeargeSDXL.modules.ui_preview_image.SeargePreviewImage'>
+SeargeAdvancedParameters   ::   <class 'SeargeSDXL.modules.ui_advanced_parameters.SeargeAdvancedParameters'>
+SeargeConditioningParameters   ::   <class 'SeargeSDXL.modules.ui_conditioning_parameters.SeargeConditioningParameters'>
+SeargeConditionMixing   ::   <class 'SeargeSDXL.modules.ui_condition_mixing.SeargeConditionMixing'>
+SeargeControlnetModels   ::   <class 'SeargeSDXL.modules.ui_controlnet_models.SeargeControlnetModels'>
+SeargeCustomPromptMode   ::   <class 'SeargeSDXL.modules.ui_custom_prompt_mode.SeargeCustomPromptMode'>
+SeargeFreeU   ::   <class 'SeargeSDXL.modules.ui_freeu.SeargeFreeU'>
+SeargeGenerationParameters   ::   <class 'SeargeSDXL.modules.ui_generation_parameters.SeargeGenerationParameters'>
+SeargeHighResolution   ::   <class 'SeargeSDXL.modules.ui_high_resolution.SeargeHighResolution'>
+SeargeImage2ImageAndInpainting   ::   <class 'SeargeSDXL.modules.ui_img2img_inpaint.SeargeImage2ImageAndInpainting'>
+SeargeImageSaving   ::   <class 'SeargeSDXL.modules.ui_image_saving.SeargeImageSaving'>
+SeargeLoras   ::   <class 'SeargeSDXL.modules.ui_loras.SeargeLoras'>
+SeargeModelSelector   ::   <class 'SeargeSDXL.modules.ui_model_selector.SeargeModelSelector'>
+SeargeOperatingMode   ::   <class 'SeargeSDXL.modules.ui_operating_mode.SeargeOperatingMode'>
+SeargePromptStyles   ::   <class 'SeargeSDXL.modules.ui_prompt_styles.SeargePromptStyles'>
+SeargeUpscaleModels   ::   <class 'SeargeSDXL.modules.ui_upscale_models.SeargeUpscaleModels'>
+SeargeMagicBox   ::   <class 'SeargeSDXL.modules.magic_box.SeargeMagicBox'>
+SeargePipelineStart   ::   <class 'SeargeSDXL.modules.mb_pipeline_start.SeargePipelineStart'>
+SeargePipelineTerminator   ::   <class 'SeargeSDXL.modules.mb_pipeline_terminator.SeargePipelineTerminator'>
+SeargeCustomAfterVaeDecode   ::   <class 'SeargeSDXL.modules.after_vae_decode.SeargeCustomAfterVaeDecode'>
+SeargeCustomAfterUpscaling   ::   <class 'SeargeSDXL.modules.after_upscaling.SeargeCustomAfterUpscaling'>
+SeargeDebugPrinter   ::   <class 'SeargeSDXL.modules.debug_printer.SeargeDebugPrinter'>
+SeargeSDXLSampler   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLSampler'>
+SeargeSDXLSampler2   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLSampler2'>
+SeargeSDXLSamplerV3   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLSamplerV3'>
+SeargeSDXLImage2ImageSampler   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLImage2ImageSampler'>
+SeargeSDXLImage2ImageSampler2   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLImage2ImageSampler2'>
+SeargeSamplerInputs   ::   <class 'SeargeSDXL.modules._legacy.SeargeSamplerInputs'>
+SeargeEnablerInputs   ::   <class 'SeargeSDXL.modules._legacy.SeargeEnablerInputs'>
+SeargeSaveFolderInputs   ::   <class 'SeargeSDXL.modules._legacy.SeargeSaveFolderInputs'>
+SeargeSDXLPromptEncoder   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLPromptEncoder'>
+SeargeSDXLBasePromptEncoder   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLBasePromptEncoder'>
+SeargeSDXLRefinerPromptEncoder   ::   <class 'SeargeSDXL.modules._legacy.SeargeSDXLRefinerPromptEncoder'>
+SeargePromptText   ::   <class 'SeargeSDXL.modules._legacy.SeargePromptText'>
+SeargePromptCombiner   ::   <class 'SeargeSDXL.modules._legacy.SeargePromptCombiner'>
+SeargeIntegerConstant   ::   <class 'SeargeSDXL.modules._legacy.SeargeIntegerConstant'>
+SeargeIntegerPair   ::   <class 'SeargeSDXL.modules._legacy.SeargeIntegerPair'>
+SeargeIntegerMath   ::   <class 'SeargeSDXL.modules._legacy.SeargeIntegerMath'>
+SeargeIntegerScaler   ::   <class 'SeargeSDXL.modules._legacy.SeargeIntegerScaler'>
+SeargeFloatConstant   ::   <class 'SeargeSDXL.modules._legacy.SeargeFloatConstant'>
+SeargeFloatPair   ::   <class 'SeargeSDXL.modules._legacy.SeargeFloatPair'>
+SeargeFloatMath   ::   <class 'SeargeSDXL.modules._legacy.SeargeFloatMath'>
+SeargeImageSave   ::   <class 'SeargeSDXL.modules._legacy.SeargeImageSave'>
+SeargeCheckpointLoader   ::   <class 'SeargeSDXL.modules._legacy.SeargeCheckpointLoader'>
+SeargeVAELoader   ::   <class 'SeargeSDXL.modules._legacy.SeargeVAELoader'>
+SeargeUpscaleModelLoader   ::   <class 'SeargeSDXL.modules._legacy.SeargeUpscaleModelLoader'>
+SeargeLoraLoader   ::   <class 'SeargeSDXL.modules._legacy.SeargeLoraLoader'>
+SeargeLatentMuxer3   ::   <class 'SeargeSDXL.modules._legacy.SeargeLatentMuxer3'>
+SeargeConditioningMuxer2   ::   <class 'SeargeSDXL.modules._legacy.SeargeConditioningMuxer2'>
+SeargeConditioningMuxer5   ::   <class 'SeargeSDXL.modules._legacy.SeargeConditioningMuxer5'>
+SeargeParameterProcessor   ::   <class 'SeargeSDXL.modules._legacy.SeargeParameterProcessor'>
+SeargeStylePreprocessor   ::   <class 'SeargeSDXL.modules._legacy.SeargeStylePreprocessor'>
+SeargeInput1   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput1'>
+SeargeInput2   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput2'>
+SeargeInput3   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput3'>
+SeargeInput4   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput4'>
+SeargeInput5   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput5'>
+SeargeInput6   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput6'>
+SeargeInput7   ::   <class 'SeargeSDXL.modules._legacy.SeargeInput7'>
+SeargeOutput1   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput1'>
+SeargeOutput2   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput2'>
+SeargeOutput3   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput3'>
+SeargeOutput4   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput4'>
+SeargeOutput5   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput5'>
+SeargeOutput6   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput6'>
+SeargeOutput7   ::   <class 'SeargeSDXL.modules._legacy.SeargeOutput7'>
+SeargeGenerated1   ::   <class 'SeargeSDXL.modules._legacy.SeargeGenerated1'>
+ChatGPT Simple _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.O_ChatGPT_O'>
+ChatGPT compact _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.O_ChatGPT_medium_O'>
+load_openAI _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.load_openAI_O'>
+Chat_Message _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.openAi_chat_message_O'>
+combine_chat_messages _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.openAi_chat_messages_Combine_O'>
+Chat completion _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.openAi_chat_completion_O'>
+create image _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.openAi_Image_create_O'>
+variation_image _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.openAi_Image_variation_O'>
+LatentUpscaleFactor _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.LatentUpscaleFactor_O'>
+LatentUpscaleFactorSimple _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.LatentUpscaleFactorSimple_O'>
+selectLatentFromBatch _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.SelectLatentImage_O'>
+RandomNSP _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.RandomNSP_O'>
+ConcatRandomNSP_O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.ConcatRandomNSP_O'>
+Concat Text _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.concat_text_O'>
+Trim Text _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.trim_text_O'>
+Replace Text _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.replace_text_O'>
+saveTextToFile _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.saveTextToFile_O'>
+Text2Image _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.Text2Image_O'>
+ImageScaleFactor _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.ImageScaleFactor_O'>
+ImageScaleFactorSimple _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.ImageScaleFactorSimple_O'>
+Equation1param _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.applyEquation1param_O'>
+Equation2params _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.applyEquation2params_O'>
+floatToInt _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.floatToInt_O'>
+intToFloat _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.intToFloat_O'>
+floatToText _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.floatToText_O'>
+GetImage_(Width&Height) _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.GetImageWidthAndHeight_O'>
+GetLatent_(Width&Height) _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.GetLatentWidthAndHeight_O'>
+debug messages_O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.DebugOpenAIChatMEssages_O'>
+debug Completeion _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.DebugOpenAIChatCompletion_O'>
+Debug Text _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.DebugText_O'>
+Debug Text route _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.DebugTextRoute_O'>
+Note _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.Note_O'>
+Text _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.Text_O'>
+seed _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.seed_O'>
+int _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.int_O'>
+float _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLifeSuit_Omar92.float_O'>
+ChatGPT _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.O_ChatGPT_deprecated'>
+Chat_Message_fromString _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.openAi_chat_message_STR_deprecated'>
+compine_chat_messages _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.openAi_chat_messages_Combine_deprecated'>
+Chat_Completion _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.openAi_chat_completion_deprecated'>
+create_image _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.openAi_Image_create_deprecated'>
+String _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.O_String_deprecated'>
+Debug String _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.DebugString_deprecated'>
+concat Strings _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.concat_String_deprecated'>
+trim String _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.trim_String_deprecated'>
+replace String _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.replace_String_deprecated'>
+replace String advanced _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.replace_String_advanced_deprecated'>
+string2Image _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.string2Image_deprecated'>
+CLIPStringEncode _O   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.CLIPStringEncode_deprecated'>
+LatentUpscaleMultiply   ::   <class 'ComfyUI-QualityOfLifeSuit_Omar92.src.QualityOfLife_deprecatedNodes.LatentUpscaleMultiply_deprecated'>
+Gemini_API_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_Zho'>
+Gemini_API_Vsion_ImgURL_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_Vsion_ImgURL_Zho'>
+Gemini_API_Chat_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_Chat_Zho'>
+Gemini_API_S_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_S_Zho'>
+Gemini_API_S_Vsion_ImgURL_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_S_Vsion_ImgURL_Zho'>
+Gemini_API_S_Chat_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.Gemini_API_S_Chat_Zho'>
+ConcatText_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.ConcatText_Zho'>
+DisplayText_Zho   ::   <class 'ComfyUI-Gemini.GeminiAPINode.DisplayText_Zho'>
+XY Input: Lora Block Weight //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.lora_block_weight.XYInput_LoraBlockWeight'>
+LoraLoaderBlockWeight //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.lora_block_weight.LoraLoaderBlockWeight'>
+LoraBlockInfo //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.lora_block_weight.LoraBlockInfo'>
+OpenPose_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.OpenPose_Preprocessor_Provider_for_SEGS'>
+DWPreprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.DWPreprocessor_Provider_for_SEGS'>
+MiDaS_DepthMap_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.MiDaS_DepthMap_Preprocessor_Provider_for_SEGS'>
+LeRes_DepthMap_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.LeReS_DepthMap_Preprocessor_Provider_for_SEGS'>
+Canny_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.Canny_Preprocessor_Provider_for_SEGS'>
+MediaPipe_FaceMesh_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.MediaPipe_FaceMesh_Preprocessor_Provider_for_SEGS'>
+HEDPreprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.HEDPreprocessor_Provider_for_SEGS'>
+FakeScribblePreprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.FakeScribblePreprocessor_Provider_for_SEGS'>
+AnimeLineArt_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.AnimeLineArt_Preprocessor_Provider_for_SEGS'>
+Manga2Anime_LineArt_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.Manga2Anime_LineArt_Preprocessor_Provider_for_SEGS'>
+LineArt_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.LineArt_Preprocessor_Provider_for_SEGS'>
+Color_Preprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.Color_Preprocessor_Provider_for_SEGS'>
+InpaintPreprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.InpaintPreprocessor_Provider_for_SEGS'>
+TilePreprocessor_Provider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.TilePreprocessor_Provider_for_SEGS'>
+MeshGraphormerDepthMapPreprocessorProvider_for_SEGS //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.MeshGraphormerDepthMapPreprocessorProvider_for_SEGS'>
+MediaPipeFaceMeshDetectorProvider //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.segs_support.MediaPipeFaceMeshDetectorProvider'>
+KSampler //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.a1111_compat.KSampler_inspire'>
+KSamplerAdvanced //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.a1111_compat.KSamplerAdvanced_inspire'>
+KSamplerPipe //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.a1111_compat.KSampler_inspire_pipe'>
+KSamplerAdvancedPipe //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.a1111_compat.KSamplerAdvanced_inspire_pipe'>
+HyperTile //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.a1111_compat.HyperTileInspire'>
+LoadPromptsFromDir //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.LoadPromptsFromDir'>
+LoadPromptsFromFile //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.LoadPromptsFromFile'>
+LoadSinglePromptFromFile //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.LoadSinglePromptFromFile'>
+UnzipPrompt //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.UnzipPrompt'>
+ZipPrompt //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.ZipPrompt'>
+PromptExtractor //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.PromptExtractor'>
+GlobalSeed //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.GlobalSeed'>
+GlobalSampler //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.GlobalSampler'>
+BindImageListPromptList //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.BindImageListPromptList'>
+WildcardEncode //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.WildcardEncodeInspire'>
+PromptBuilder //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.PromptBuilder'>
+SeedExplorer //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.SeedExplorer'>
+ListCounter //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.ListCounter'>
+CLIPTextEncodeWithWeight //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.CLIPTextEncodeWithWeight'>
+RandomGeneratorForList //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.RandomGeneratorForList'>
+MakeBasicPipe //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.MakeBasicPipe'>
+RemoveControlNet //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.RemoveControlNet'>
+RemoveControlNetFromRegionalPrompts //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.prompt_support.RemoveControlNetFromRegionalPrompts'>
+LoadImagesFromDir //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.LoadImagesFromDirBatch'>
+LoadImageListFromDir //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.LoadImagesFromDirList'>
+LoadImage //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.LoadImageInspire'>
+ChangeImageBatchSize //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.ChangeImageBatchSize'>
+ImageBatchSplitter //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.ImageBatchSplitter'>
+LatentBatchSplitter //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.image_util.LatentBatchSplitter'>
+RegionalPromptSimple //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalPromptSimple'>
+RegionalPromptColorMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalPromptColorMask'>
+RegionalConditioningSimple //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalConditioningSimple'>
+RegionalConditioningColorMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalConditioningColorMask'>
+RegionalIPAdapterMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalIPAdapterMask'>
+RegionalIPAdapterColorMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalIPAdapterColorMask'>
+RegionalIPAdapterEncodedMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalIPAdapterEncodedMask'>
+RegionalIPAdapterEncodedColorMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalIPAdapterEncodedColorMask'>
+RegionalSeedExplorerMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalSeedExplorerMask'>
+RegionalSeedExplorerColorMask //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.RegionalSeedExplorerColorMask'>
+ToIPAdapterPipe //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.ToIPAdapterPipe'>
+FromIPAdapterPipe //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.FromIPAdapterPipe'>
+ApplyRegionalIPAdapters //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.regional_nodes.ApplyRegionalIPAdapters'>
+KSamplerProgress //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.sampler_nodes.KSampler_progress'>
+KSamplerAdvancedProgress //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.sampler_nodes.KSamplerAdvanced_progress'>
+CacheBackendData //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.CacheBackendData'>
+CacheBackendDataNumberKey //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.CacheBackendDataNumberKey'>
+CacheBackendDataList //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.CacheBackendDataList'>
+CacheBackendDataNumberKeyList //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.CacheBackendDataNumberKeyList'>
+RetrieveBackendData //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.RetrieveBackendData'>
+RetrieveBackendDataNumberKey //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.RetrieveBackendDataNumberKey'>
+RemoveBackendData //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.RemoveBackendData'>
+RemoveBackendDataNumberKey //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.RemoveBackendDataNumberKey'>
+ShowCachedInfo //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.ShowCachedInfo'>
+CheckpointLoaderSimpleShared //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.backend_support.CheckpointLoaderSimpleShared'>
+FloatRange //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.list_nodes.FloatRange'>
+ConcatConditioningsWithMultiplier //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.conditioning_nodes.ConcatConditioningsWithMultiplier'>
+IPAdapterModelHelper //Inspire   ::   <class 'ComfyUI-Inspire-Pack.inspire.model_nodes.IPAdapterModelHelper'>
+Compare   ::   <class 'ComfyUI-Logic.nodes.Compare'>
+Int   ::   <class 'ComfyUI-Logic.nodes.Int'>
+Bool   ::   <class 'ComfyUI-Logic.nodes.Bool'>
+String   ::   <class 'ComfyUI-Logic.nodes.String'>
+If ANY execute A else B   ::   <class 'ComfyUI-Logic.nodes.IfExecute'>
+DebugPrint   ::   <class 'ComfyUI-Logic.nodes.DebugPrint'>
+UniFormer-SemSegPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.uniformer.Uniformer_SemSegPreprocessor'>
+SemSegPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.uniformer.Uniformer_SemSegPreprocessor'>
+MiDaS-NormalMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.midas.MIDAS_Normal_Map_Preprocessor'>
+MiDaS-DepthMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.midas.MIDAS_Depth_Map_Preprocessor'>
+BAE-NormalMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.normalbae.BAE_Normal_Map_Preprocessor'>
+LeReS-DepthMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.leres.LERES_Depth_Map_Preprocessor'>
+InpaintPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.inpaint.InpaintPreprocessor'>
+ScribblePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.scribble.Scribble_Preprocessor'>
+Scribble_XDoG_Preprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.scribble.Scribble_XDoG_Preprocessor'>
+DensePosePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.densepose.DensePose_Preprocessor'>
+AnimeLineArtPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.lineart_anime.AnimeLineArt_Preprocessor'>
+MeshGraphormer-DepthMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.mesh_graphormer.Mesh_Graphormer_Depth_Map_Preprocessor'>
+Manga2Anime_LineArt_Preprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.manga_line.Manga2Anime_LineArt_Preprocessor'>
+Zoe-DepthMapPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.zoe.Zoe_Depth_Map_Preprocessor'>
+LineartStandardPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.lineart_standard.Lineart_Standard_Preprocessor'>
+SAMPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.segment_anything.SAM_Preprocessor'>
+PiDiNetPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.pidinet.PIDINET_Preprocessor'>
+BinaryPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.binary.Binary_Preprocessor'>
+HEDPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.hed.HED_Preprocessor'>
+FakeScribblePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.hed.Fake_Scribble_Preprocessor'>
+MediaPipe-FaceMeshPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.mediapipe_face.Media_Pipe_Face_Mesh_Preprocessor'>
+ShufflePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.shuffle.Shuffle_Preprocessor'>
+CannyEdgePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.canny.Canny_Edge_Preprocessor'>
+DWPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.dwpose.DWPose_Preprocessor'>
+AnimalPosePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.dwpose.AnimalPose_Preprocessor'>
+TilePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.tile.Tile_Preprocessor'>
+LineArtPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.lineart.LineArt_Preprocessor'>
+ColorPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.color.Color_Preprocessor'>
+OneFormer-COCO-SemSegPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.oneformer.OneFormer_COCO_SemSegPreprocessor'>
+OneFormer-ADE20K-SemSegPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.oneformer.OneFormer_ADE20K_SemSegPreprocessor'>
+OpenposePreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.openpose.OpenPose_Preprocessor'>
+SavePoseKpsAsJsonFile   ::   <class 'comfyui_controlnet_aux.node_wrappers.pose_keypoint_postprocess.SavePoseKpsAsJsonFile'>
+FacialPartColoringFromPoseKps   ::   <class 'comfyui_controlnet_aux.node_wrappers.pose_keypoint_postprocess.FacialPartColoringFromPoseKps'>
+AnimeFace_SemSegPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.anime_face_segment.AnimeFace_SemSegPreprocessor'>
+M-LSDPreprocessor   ::   <class 'comfyui_controlnet_aux.node_wrappers.mlsd.MLSD_Preprocessor'>
+AIO_Preprocessor   ::   <class 'comfyui_controlnet_aux.AIO_Preprocessor'>
+PixelPerfectResolution   ::   <class 'comfyui_controlnet_aux.hint_image_enchance.PixelPerfectResolution'>
+ImageGenResolutionFromImage   ::   <class 'comfyui_controlnet_aux.hint_image_enchance.ImageGenResolutionFromImage'>
+ImageGenResolutionFromLatent   ::   <class 'comfyui_controlnet_aux.hint_image_enchance.ImageGenResolutionFromLatent'>
+HintImageEnchance   ::   <class 'comfyui_controlnet_aux.hint_image_enchance.HintImageEnchance'>
+Remove Image Background (abg)   ::   <class 'abg-comfyui.RemoveImageBackgroundabg'>
+Seed Everywhere   ::   <class 'cg-use-everywhere.use_everywhere.SeedEverywhere'>
+Anything Everywhere   ::   <class 'cg-use-everywhere.use_everywhere.AnythingEverywhere'>
+Anything Everywhere3   ::   <class 'cg-use-everywhere.use_everywhere.AnythingEverywhereTriplet'>
+Anything Everywhere?   ::   <class 'cg-use-everywhere.use_everywhere.AnythingSomewhere'>
+Prompts Everywhere   ::   <class 'cg-use-everywhere.use_everywhere.AnythingEverywherePrompts'>
+Simple String   ::   <class 'cg-use-everywhere.use_everywhere.SimpleString'>
+ControlLoraSave   ::   <class 'stability-ComfyUI-nodes.control_lora_create.ControlLoraSave'>
+ColorBlend   ::   <class 'comfyui-art-venture.modules.postprocessing.color_blend.ColorBlend'>
+GetImageSize   ::   <class 'stability-ComfyUI-nodes.image_nodes.GetImageSize'>
+AV_CheckpointModelsToParametersPipe   ::   <class 'comfyui-art-venture.modules.nodes.AVCheckpointModelsToParametersPipe'>
+AV_PromptsToParametersPipe   ::   <class 'comfyui-art-venture.modules.nodes.AVPromptsToParametersPipe'>
+AV_ParametersPipeToCheckpointModels   ::   <class 'comfyui-art-venture.modules.nodes.AVParametersPipeToCheckpointModels'>
+AV_ParametersPipeToPrompts   ::   <class 'comfyui-art-venture.modules.nodes.AVParametersPipeToPrompts'>
+AV_VAELoader   ::   <class 'comfyui-art-venture.modules.nodes.AVVAELoader'>
+AV_LoraLoader   ::   <class 'comfyui-art-venture.modules.nodes.AVLoraLoader'>
+AV_LoraListLoader   ::   <class 'comfyui-art-venture.modules.nodes.AVLoraListLoader'>
+AV_LoraListStacker   ::   <class 'comfyui-art-venture.modules.nodes.AVLoraListStacker'>
+AV_CheckpointMerge   ::   <class 'comfyui-art-venture.modules.nodes.AVCheckpointMerge'>
+AV_CheckpointSave   ::   <class 'comfyui-art-venture.modules.nodes.AVCheckpointSave'>
+LoadImageFromUrl   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilLoadImageFromUrl'>
+LoadImageAsMaskFromUrl   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilLoadImageAsMaskFromUrl'>
+StringToInt   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilStringToInt'>
+StringToNumber   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilStringToNumber'>
+BooleanPrimitive   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilBooleanPrimitive'>
+ImageMuxer   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageMuxer'>
+ImageScaleDown   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageScaleDown'>
+ImageScaleDownBy   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageScaleDownBy'>
+ImageScaleDownToSize   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageScaleDownToSize'>
+ImageScaleToMegapixels   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageScaleToTotalPixels'>
+ImageAlphaComposite   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageAlphaComposite'>
+ImageGaussianBlur   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageGaussianBlur'>
+ImageRepeat   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilRepeatImages'>
+ImageExtractChannel   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageExtractChannel'>
+ImageApplyChannel   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilImageApplyChannel'>
+QRCodeGenerator   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtillQRCodeGenerator'>
+DependenciesEdit   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilDependenciesEdit'>
+AspectRatioSelector   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilAspectRatioSelector'>
+SDXLAspectRatioSelector   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilSDXLAspectRatioSelector'>
+SeedSelector   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilSeedSelector'>
+LoadJsonFromUrl   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilLoadJsonFromUrl'>
+GetObjectFromJson   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilGetObjectFromJson'>
+GetTextFromJson   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilGetTextFromJson'>
+GetFloatFromJson   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilGetFloatFromJson'>
+GetIntFromJson   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilGetIntFromJson'>
+GetBoolFromJson   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilGetBoolFromJson'>
+RandomInt   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilRandomInt'>
+RandomFloat   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilRandomFloat'>
+NumberScaler   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilNumberScaler'>
+MergeModels   ::   <class 'comfyui-art-venture.modules.utility_nodes.UtilModelMerge'>
+BLIPLoader   ::   <class 'comfyui-art-venture.modules.interrogate.blip_node.BlipLoader'>
+BLIPCaption   ::   <class 'comfyui-art-venture.modules.interrogate.blip_node.BlipCaption'>
+DeepDanbooruCaption   ::   <class 'comfyui-art-venture.modules.interrogate.danbooru.DeepDanbooruCaption'>
+Fooocus_KSampler   ::   <class 'comfyui-art-venture.modules.fooocus.KSamplerWithSharpness'>
+Fooocus_KSamplerAdvanced   ::   <class 'comfyui-art-venture.modules.fooocus.KSamplerAdvancedWithSharpness'>
+Fooocus_KSamplerEfficient   ::   <class 'comfyui-art-venture.modules.fooocus.efficient.KSamplerEfficientWithSharpness'>
+Fooocus_KSamplerEfficientAdvanced   ::   <class 'comfyui-art-venture.modules.fooocus.efficient.KSamplerEfficientAdvancedWithSharpness'>
+AV_CheckpointLoader   ::   <class 'comfyui-art-venture.modules.fooocus.efficient.AVCheckpointLoader'>
+AV_ControlNetLoader   ::   <class 'comfyui-art-venture.modules.controlnet.AVControlNetLoader'>
+AV_ControlNetEfficientLoader   ::   <class 'comfyui-art-venture.modules.controlnet.AVControlNetEfficientLoader'>
+AV_ControlNetEfficientLoaderAdvanced   ::   <class 'comfyui-art-venture.modules.controlnet.AVControlNetEfficientLoaderAdvanced'>
+AV_ControlNetEfficientStacker   ::   <class 'comfyui-art-venture.modules.controlnet.AVControlNetEfficientStacker'>
+AV_ControlNetEfficientStackerSimple   ::   <class 'comfyui-art-venture.modules.controlnet.AVControlNetEfficientStackerSimple'>
+AV_ControlNetPreprocessor   ::   <class 'comfyui-art-venture.modules.controlnet.AV_ControlNetPreprocessor'>
+AV_IPAdapter   ::   <class 'comfyui-art-venture.modules.ip_adapter_nodes.AV_IPAdapter'>
+AV_IPAdapterEncodeFromJson   ::   <class 'comfyui-art-venture.modules.ip_adapter_nodes.AV_IPAdapterEncodeFromJson'>
+AV_IPAdapterApplyEncoded   ::   <class 'comfyui-art-venture.modules.ip_adapter_nodes.AV_IPAdapterApplyEncoded'>
+ISNetLoader   ::   <class 'comfyui-art-venture.modules.isnet.segmenter.ISNetLoader'>
+ISNetSegment   ::   <class 'comfyui-art-venture.modules.isnet.segmenter.ISNetSegment'>
+AV_SAMLoader   ::   <class 'comfyui-art-venture.modules.inpaint.sam.nodes.SAMLoader'>
+GetSAMEmbedding   ::   <class 'comfyui-art-venture.modules.inpaint.sam.nodes.GetSAMEmbedding'>
+SAMEmbeddingToImage   ::   <class 'comfyui-art-venture.modules.inpaint.sam.nodes.SAMEmbeddingToImage'>
+LaMaInpaint   ::   <class 'comfyui-art-venture.modules.inpaint.lama.LaMaInpaint'>
+PrepareImageAndMaskForInpaint   ::   <class 'comfyui-art-venture.modules.inpaint.nodes.PrepareImageAndMaskForInpaint'>
+OverlayInpaintedLatent   ::   <class 'comfyui-art-venture.modules.inpaint.nodes.OverlayInpaintedLatent'>
+OverlayInpaintedImage   ::   <class 'comfyui-art-venture.modules.inpaint.nodes.OverlayInpaintedImage'>
+LoadVideoFromUrl   ::   <class 'comfyui-art-venture.modules.video.UtilLoadVideoFromUrl'>
+UltimateSDUpscale   ::   <class 'ComfyUI_UltimateSDUpscale.nodes.UltimateSDUpscale'>
+UltimateSDUpscaleNoUpscale   ::   <class 'ComfyUI_UltimateSDUpscale.nodes.UltimateSDUpscaleNoUpscale'>
+Save Gif (mtb)   ::   <class 'comfy_mtb.nodes.io.SaveGif'>
+Export With Ffmpeg (mtb)   ::   <class 'comfy_mtb.nodes.io.ExportWithFfmpeg'>
+Add To Playlist (mtb)   ::   <class 'comfy_mtb.nodes.io.AddToPlaylist'>
+Read Playlist (mtb)   ::   <class 'comfy_mtb.nodes.io.ReadPlaylist'>
+Animation Builder (mtb)   ::   <class 'comfy_mtb.nodes.animation.AnimationBuilder'>
+Filter Z (mtb)   ::   <class 'comfy_mtb.nodes.filter.MTB_FilterZ'>
+Batch Float (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchFloat'>
+Batch Transform (mtb)   ::   <class 'comfy_mtb.nodes.batch.Batch2dTransform'>
+Batch Shape (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchShape'>
+Batch Make (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchMake'>
+Batch Float Assemble (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchFloatAssemble'>
+Batch Float Fill (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchFloatFill'>
+Batch Merge (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchMerge'>
+Batch Shake (mtb)   ::   <class 'comfy_mtb.nodes.batch.BatchShake'>
+Plot Batch Float (mtb)   ::   <class 'comfy_mtb.nodes.batch.PlotBatchFloat'>
+Curve (mtb)   ::   <class 'comfy_mtb.nodes.curve.MTB_Curve'>
+Bbox From Mask (mtb)   ::   <class 'comfy_mtb.nodes.crop.BboxFromMask'>
+Bbox (mtb)   ::   <class 'comfy_mtb.nodes.crop.Bbox'>
+Crop (mtb)   ::   <class 'comfy_mtb.nodes.crop.Crop'>
+Uncrop (mtb)   ::   <class 'comfy_mtb.nodes.crop.Uncrop'>
+Deep Bump (mtb)   ::   <class 'comfy_mtb.nodes.deep_bump.DeepBump'>
+Model Patch Seamless (mtb)   ::   <class 'comfy_mtb.nodes.model.ModelPatchSeamless'>
+Vae Decode (mtb)   ::   <class 'comfy_mtb.nodes.model.VaeDecode_'>
+Transform Image (mtb)   ::   <class 'comfy_mtb.nodes.transform.TransformImage'>
+Image Remove Background Rembg (mtb)   ::   <class 'comfy_mtb.nodes.mask.ImageRemoveBackgroundRembg'>
+Qr Code (mtb)   ::   <class 'comfy_mtb.nodes.generate.QrCode'>
+Unsplash Image (mtb)   ::   <class 'comfy_mtb.nodes.generate.UnsplashImage'>
+Text To Image (mtb)   ::   <class 'comfy_mtb.nodes.generate.TextToImage'>
+Stack Images (mtb)   ::   <class 'comfy_mtb.nodes.image_utils.StackImages'>
+Pick From Batch (mtb)   ::   <class 'comfy_mtb.nodes.image_utils.PickFromBatch'>
+Smart Step (mtb)   ::   <class 'comfy_mtb.nodes.conditions.SmartStep'>
+Styles Loader (mtb)   ::   <class 'comfy_mtb.nodes.conditions.StylesLoader'>
+Interpolate Clip Sequential (mtb)   ::   <class 'comfy_mtb.nodes.conditions.InterpolateClipSequential'>
+Load Image Sequence (mtb)   ::   <class 'comfy_mtb.nodes.video.LoadImageSequence'>
+Save Image Sequence (mtb)   ::   <class 'comfy_mtb.nodes.video.SaveImageSequence'>
+Face Swap (mtb)   ::   <class 'comfy_mtb.nodes.faceswap.FaceSwap'>
+Load Face Swap Model (mtb)   ::   <class 'comfy_mtb.nodes.faceswap.LoadFaceSwapModel'>
+Load Face Analysis Model (mtb)   ::   <class 'comfy_mtb.nodes.faceswap.LoadFaceAnalysisModel'>
+Float To Number (mtb)   ::   <class 'comfy_mtb.nodes.number.FloatToNumber'>
+Int To Bool (mtb)   ::   <class 'comfy_mtb.nodes.number.IntToBool'>
+Int To Number (mtb)   ::   <class 'comfy_mtb.nodes.number.IntToNumber'>
+Color Correct (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ColorCorrect'>
+Image Compare (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ImageCompare_'>
+Image Tile Offset (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ImageTileOffset'>
+Blur (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.Blur_'>
+Mask To Image (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.MaskToImage'>
+Colored Image (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ColoredImage'>
+Image Premultiply (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ImagePremultiply'>
+Image Resize Factor (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.ImageResizeFactor'>
+Save Image Grid (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.SaveImageGrid_'>
+Load Image From Url (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.LoadImageFromUrl_'>
+Sharpen (mtb)   ::   <class 'comfy_mtb.nodes.image_processing.Sharpen_'>
+String Replace (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.StringReplace'>
+Fit Number (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.FitNumber'>
+Get Batch From History (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.GetBatchFromHistory'>
+Any To String (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.AnyToString'>
+Concat Images (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.ConcatImages'>
+Math Expression (mtb)   ::   <class 'comfy_mtb.nodes.graph_utils.MTB_MathExpression'>
+Latent Lerp (mtb)   ::   <class 'comfy_mtb.nodes.latent_processing.LatentLerp'>
+Debug (mtb)   ::   <class 'comfy_mtb.nodes.debug.Debug'>
+Save Tensors (mtb)   ::   <class 'comfy_mtb.nodes.debug.SaveTensors'>
+FaceRestoreCFWithModel   ::   <class 'facerestore_cf.FaceRestoreCFWithModel'>
+CropFace   ::   <class 'facerestore_cf.CropFace'>
+FaceRestoreModelLoader   ::   <class 'facerestore_cf.FaceRestoreModelLoader'>
+SAMLoader   ::   <class 'impact.impact_pack.SAMLoader'>
+CLIPSegDetectorProvider   ::   <class 'impact.impact_pack.CLIPSegDetectorProvider'>
+ONNXDetectorProvider   ::   <class 'impact.impact_pack.ONNXDetectorProvider'>
+BitwiseAndMaskForEach   ::   <class 'impact.impact_pack.BitwiseAndMaskForEach'>
+SubtractMaskForEach   ::   <class 'impact.impact_pack.SubtractMaskForEach'>
+DetailerForEach   ::   <class 'impact.impact_pack.DetailerForEach'>
+DetailerForEachDebug   ::   <class 'impact.impact_pack.DetailerForEachTest'>
+DetailerForEachPipe   ::   <class 'impact.impact_pack.DetailerForEachPipe'>
+DetailerForEachDebugPipe   ::   <class 'impact.impact_pack.DetailerForEachTestPipe'>
+SAMDetectorCombined   ::   <class 'impact.detectors.SAMDetectorCombined'>
+SAMDetectorSegmented   ::   <class 'impact.detectors.SAMDetectorSegmented'>
+FaceDetailer   ::   <class 'impact.impact_pack.FaceDetailer'>
+FaceDetailerPipe   ::   <class 'impact.impact_pack.FaceDetailerPipe'>
+MaskDetailerPipe   ::   <class 'impact.impact_pack.MaskDetailerPipe'>
+ToDetailerPipe   ::   <class 'impact.pipe.ToDetailerPipe'>
+ToDetailerPipeSDXL   ::   <class 'impact.pipe.ToDetailerPipeSDXL'>
+FromDetailerPipe   ::   <class 'impact.pipe.FromDetailerPipe'>
+FromDetailerPipe_v2   ::   <class 'impact.pipe.FromDetailerPipe_v2'>
+FromDetailerPipeSDXL   ::   <class 'impact.pipe.FromDetailerPipe_SDXL'>
+ToBasicPipe   ::   <class 'impact.pipe.ToBasicPipe'>
+FromBasicPipe   ::   <class 'impact.pipe.FromBasicPipe'>
+FromBasicPipe_v2   ::   <class 'impact.pipe.FromBasicPipe_v2'>
+BasicPipeToDetailerPipe   ::   <class 'impact.pipe.BasicPipeToDetailerPipe'>
+BasicPipeToDetailerPipeSDXL   ::   <class 'impact.pipe.BasicPipeToDetailerPipeSDXL'>
+DetailerPipeToBasicPipe   ::   <class 'impact.pipe.DetailerPipeToBasicPipe'>
+EditBasicPipe   ::   <class 'impact.pipe.EditBasicPipe'>
+EditDetailerPipe   ::   <class 'impact.pipe.EditDetailerPipe'>
+EditDetailerPipeSDXL   ::   <class 'impact.pipe.EditDetailerPipeSDXL'>
+LatentPixelScale   ::   <class 'impact.impact_pack.LatentPixelScale'>
+PixelKSampleUpscalerProvider   ::   <class 'impact.impact_pack.PixelKSampleUpscalerProvider'>
+PixelKSampleUpscalerProviderPipe   ::   <class 'impact.impact_pack.PixelKSampleUpscalerProviderPipe'>
+IterativeLatentUpscale   ::   <class 'impact.impact_pack.IterativeLatentUpscale'>
+IterativeImageUpscale   ::   <class 'impact.impact_pack.IterativeImageUpscale'>
+PixelTiledKSampleUpscalerProvider   ::   <class 'impact.impact_pack.PixelTiledKSampleUpscalerProvider'>
+PixelTiledKSampleUpscalerProviderPipe   ::   <class 'impact.impact_pack.PixelTiledKSampleUpscalerProviderPipe'>
+TwoSamplersForMaskUpscalerProvider   ::   <class 'impact.impact_pack.TwoSamplersForMaskUpscalerProvider'>
+TwoSamplersForMaskUpscalerProviderPipe   ::   <class 'impact.impact_pack.TwoSamplersForMaskUpscalerProviderPipe'>
+PixelKSampleHookCombine   ::   <class 'impact.impact_pack.PixelKSampleHookCombine'>
+DenoiseScheduleHookProvider   ::   <class 'impact.impact_pack.DenoiseScheduleHookProvider'>
+CfgScheduleHookProvider   ::   <class 'impact.impact_pack.CfgScheduleHookProvider'>
+NoiseInjectionHookProvider   ::   <class 'impact.impact_pack.NoiseInjectionHookProvider'>
+UnsamplerHookProvider   ::   <class 'impact.impact_pack.UnsamplerHookProvider'>
+CoreMLDetailerHookProvider   ::   <class 'impact.impact_pack.CoreMLDetailerHookProvider'>
+DetailerHookCombine   ::   <class 'impact.impact_pack.DetailerHookCombine'>
+NoiseInjectionDetailerHookProvider   ::   <class 'impact.impact_pack.NoiseInjectionDetailerHookProvider'>
+UnsamplerDetailerHookProvider   ::   <class 'impact.impact_pack.UnsamplerDetailerHookProvider'>
+DenoiseSchedulerDetailerHookProvider   ::   <class 'impact.impact_pack.DenoiseSchedulerDetailerHookProvider'>
+SEGSOrderedFilterDetailerHookProvider   ::   <class 'impact.hook_nodes.SEGSOrderedFilterDetailerHookProvider'>
+SEGSRangeFilterDetailerHookProvider   ::   <class 'impact.hook_nodes.SEGSRangeFilterDetailerHookProvider'>
+SEGSLabelFilterDetailerHookProvider   ::   <class 'impact.hook_nodes.SEGSLabelFilterDetailerHookProvider'>
+BitwiseAndMask   ::   <class 'impact.impact_pack.BitwiseAndMask'>
+SubtractMask   ::   <class 'impact.impact_pack.SubtractMask'>
+AddMask   ::   <class 'impact.impact_pack.AddMask'>
+ImpactSegsAndMask   ::   <class 'impact.impact_pack.SegsBitwiseAndMask'>
+ImpactSegsAndMaskForEach   ::   <class 'impact.impact_pack.SegsBitwiseAndMaskForEach'>
+EmptySegs   ::   <class 'impact.segs_nodes.EmptySEGS'>
+MediaPipeFaceMeshToSEGS   ::   <class 'impact.segs_nodes.MediaPipeFaceMeshToSEGS'>
+MaskToSEGS   ::   <class 'impact.segs_nodes.MaskToSEGS'>
+MaskToSEGS_for_AnimateDiff   ::   <class 'impact.segs_nodes.MaskToSEGS_for_AnimateDiff'>
+ToBinaryMask   ::   <class 'impact.impact_pack.ToBinaryMask'>
+MasksToMaskList   ::   <class 'impact.util_nodes.MasksToMaskList'>
+MaskListToMaskBatch   ::   <class 'impact.util_nodes.MaskListToMaskBatch'>
+ImageListToImageBatch   ::   <class 'impact.util_nodes.ImageListToImageBatch'>
+SetDefaultImageForSEGS   ::   <class 'impact.segs_nodes.DefaultImageForSEGS'>
+RemoveImageFromSEGS   ::   <class 'impact.segs_nodes.RemoveImageFromSEGS'>
+BboxDetectorSEGS   ::   <class 'impact.detectors.BboxDetectorForEach'>
+SegmDetectorSEGS   ::   <class 'impact.detectors.SegmDetectorForEach'>
+ONNXDetectorSEGS   ::   <class 'impact.detectors.BboxDetectorForEach'>
+ImpactSimpleDetectorSEGS_for_AD   ::   <class 'impact.detectors.SimpleDetectorForAnimateDiff'>
+ImpactSimpleDetectorSEGS   ::   <class 'impact.detectors.SimpleDetectorForEach'>
+ImpactSimpleDetectorSEGSPipe   ::   <class 'impact.detectors.SimpleDetectorForEachPipe'>
+ImpactControlNetApplySEGS   ::   <class 'impact.segs_nodes.ControlNetApplySEGS'>
+ImpactControlNetClearSEGS   ::   <class 'impact.segs_nodes.ControlNetClearSEGS'>
+ImpactDecomposeSEGS   ::   <class 'impact.segs_nodes.DecomposeSEGS'>
+ImpactAssembleSEGS   ::   <class 'impact.segs_nodes.AssembleSEGS'>
+ImpactFrom_SEG_ELT   ::   <class 'impact.segs_nodes.From_SEG_ELT'>
+ImpactEdit_SEG_ELT   ::   <class 'impact.segs_nodes.Edit_SEG_ELT'>
+ImpactDilate_Mask_SEG_ELT   ::   <class 'impact.segs_nodes.Dilate_SEG_ELT'>
+ImpactDilateMask   ::   <class 'impact.segs_nodes.DilateMask'>
+ImpactGaussianBlurMask   ::   <class 'impact.segs_nodes.GaussianBlurMask'>
+ImpactDilateMaskInSEGS   ::   <class 'impact.segs_nodes.DilateMaskInSEGS'>
+ImpactGaussianBlurMaskInSEGS   ::   <class 'impact.segs_nodes.GaussianBlurMaskInSEGS'>
+ImpactScaleBy_BBOX_SEG_ELT   ::   <class 'impact.segs_nodes.SEG_ELT_BBOX_ScaleBy'>
+BboxDetectorCombined_v2   ::   <class 'impact.detectors.BboxDetectorCombined'>
+SegmDetectorCombined_v2   ::   <class 'impact.detectors.SegmDetectorCombined'>
+SegsToCombinedMask   ::   <class 'impact.segs_nodes.SegsToCombinedMask'>
+KSamplerProvider   ::   <class 'impact.special_samplers.KSamplerProvider'>
+TwoSamplersForMask   ::   <class 'impact.special_samplers.TwoSamplersForMask'>
+TiledKSamplerProvider   ::   <class 'impact.special_samplers.TiledKSamplerProvider'>
+KSamplerAdvancedProvider   ::   <class 'impact.special_samplers.KSamplerAdvancedProvider'>
+TwoAdvancedSamplersForMask   ::   <class 'impact.special_samplers.TwoAdvancedSamplersForMask'>
+PreviewBridge   ::   <class 'impact.bridge_nodes.PreviewBridge'>
+PreviewBridgeLatent   ::   <class 'impact.bridge_nodes.PreviewBridgeLatent'>
+ImageSender   ::   <class 'impact.impact_pack.ImageSender'>
+ImageReceiver   ::   <class 'impact.impact_pack.ImageReceiver'>
+LatentSender   ::   <class 'impact.impact_pack.LatentSender'>
+LatentReceiver   ::   <class 'impact.impact_pack.LatentReceiver'>
+ImageMaskSwitch   ::   <class 'impact.util_nodes.ImageMaskSwitch'>
+LatentSwitch   ::   <class 'impact.util_nodes.GeneralSwitch'>
+SEGSSwitch   ::   <class 'impact.util_nodes.GeneralSwitch'>
+ImpactSwitch   ::   <class 'impact.util_nodes.GeneralSwitch'>
+ImpactInversedSwitch   ::   <class 'impact.util_nodes.GeneralInversedSwitch'>
+ImpactWildcardProcessor   ::   <class 'impact.impact_pack.ImpactWildcardProcessor'>
+ImpactWildcardEncode   ::   <class 'impact.impact_pack.ImpactWildcardEncode'>
+SEGSDetailer   ::   <class 'impact.segs_nodes.SEGSDetailer'>
+SEGSPaste   ::   <class 'impact.segs_nodes.SEGSPaste'>
+SEGSPreview   ::   <class 'impact.segs_nodes.SEGSPreview'>
+SEGSPreviewCNet   ::   <class 'impact.segs_nodes.SEGSPreviewCNet'>
+SEGSToImageList   ::   <class 'impact.segs_nodes.SEGSToImageList'>
+ImpactSEGSToMaskList   ::   <class 'impact.segs_nodes.SEGSToMaskList'>
+ImpactSEGSToMaskBatch   ::   <class 'impact.segs_nodes.SEGSToMaskBatch'>
+ImpactSEGSConcat   ::   <class 'impact.segs_nodes.SEGSConcat'>
+ImpactSEGSPicker   ::   <class 'impact.segs_nodes.SEGSPicker'>
+ImpactMakeTileSEGS   ::   <class 'impact.segs_nodes.MakeTileSEGS'>
+SEGSDetailerForAnimateDiff   ::   <class 'impact.segs_nodes.SEGSDetailerForAnimateDiff'>
+ImpactKSamplerBasicPipe   ::   <class 'impact.special_samplers.KSamplerBasicPipe'>
+ImpactKSamplerAdvancedBasicPipe   ::   <class 'impact.special_samplers.KSamplerAdvancedBasicPipe'>
+ReencodeLatent   ::   <class 'impact.util_nodes.ReencodeLatent'>
+ReencodeLatentPipe   ::   <class 'impact.util_nodes.ReencodeLatentPipe'>
+ImpactImageBatchToImageList   ::   <class 'impact.util_nodes.ImageBatchToImageList'>
+ImpactMakeImageList   ::   <class 'impact.util_nodes.MakeImageList'>
+ImpactMakeImageBatch   ::   <class 'impact.util_nodes.MakeImageBatch'>
+RegionalSampler   ::   <class 'impact.special_samplers.RegionalSampler'>
+RegionalSamplerAdvanced   ::   <class 'impact.special_samplers.RegionalSamplerAdvanced'>
+CombineRegionalPrompts   ::   <class 'impact.special_samplers.CombineRegionalPrompts'>
+RegionalPrompt   ::   <class 'impact.special_samplers.RegionalPrompt'>
+ImpactCombineConditionings   ::   <class 'impact.special_samplers.CombineConditionings'>
+ImpactConcatConditionings   ::   <class 'impact.special_samplers.ConcatConditionings'>
+ImpactSEGSLabelFilter   ::   <class 'impact.segs_nodes.SEGSLabelFilter'>
+ImpactSEGSRangeFilter   ::   <class 'impact.segs_nodes.SEGSRangeFilter'>
+ImpactSEGSOrderedFilter   ::   <class 'impact.segs_nodes.SEGSOrderedFilter'>
+ImpactCompare   ::   <class 'impact.logics.ImpactCompare'>
+ImpactConditionalBranch   ::   <class 'impact.logics.ImpactConditionalBranch'>
+ImpactInt   ::   <class 'impact.logics.ImpactInt'>
+ImpactFloat   ::   <class 'impact.logics.ImpactFloat'>
+ImpactValueSender   ::   <class 'impact.logics.ImpactValueSender'>
+ImpactValueReceiver   ::   <class 'impact.logics.ImpactValueReceiver'>
+ImpactImageInfo   ::   <class 'impact.logics.ImpactImageInfo'>
+ImpactLatentInfo   ::   <class 'impact.logics.ImpactLatentInfo'>
+ImpactMinMax   ::   <class 'impact.logics.ImpactMinMax'>
+ImpactNeg   ::   <class 'impact.logics.ImpactNeg'>
+ImpactConditionalStopIteration   ::   <class 'impact.logics.ImpactConditionalStopIteration'>
+ImpactStringSelector   ::   <class 'impact.util_nodes.StringSelector'>
+RemoveNoiseMask   ::   <class 'impact.util_nodes.RemoveNoiseMask'>
+ImpactLogger   ::   <class 'impact.util_nodes.ImpactLogger'>
+ImpactDummyInput   ::   <class 'impact.util_nodes.ImpactDummyInput'>
+ImpactQueueTrigger   ::   <class 'impact.logics.ImpactQueueTrigger'>
+ImpactQueueTriggerCountdown   ::   <class 'impact.logics.ImpactQueueTriggerCountdown'>
+ImpactSetWidgetValue   ::   <class 'impact.logics.ImpactSetWidgetValue'>
+ImpactNodeSetMuteState   ::   <class 'impact.logics.ImpactNodeSetMuteState'>
+ImpactControlBridge   ::   <class 'impact.logics.ImpactControlBridge'>
+ImpactIsNotEmptySEGS   ::   <class 'impact.logics.ImpactNotEmptySEGS'>
+ImpactSleep   ::   <class 'impact.logics.ImpactSleep'>
+ImpactRemoteBoolean   ::   <class 'impact.logics.ImpactRemoteBoolean'>
+ImpactRemoteInt   ::   <class 'impact.logics.ImpactRemoteInt'>
+ImpactHFTransformersClassifierProvider   ::   <class 'impact.hf_nodes.HF_TransformersClassifierProvider'>
+ImpactSEGSClassify   ::   <class 'impact.hf_nodes.SEGS_Classify'>
+UltralyticsDetectorProvider   ::   <class 'impact.subpack_nodes.UltralyticsDetectorProvider'>
+GetImageSize+   ::   <class 'ComfyUI_essentials.essentials.GetImageSize'>
+ImageResize+   ::   <class 'ComfyUI_essentials.essentials.ImageResize'>
+ImageCrop+   ::   <class 'ComfyUI_essentials.essentials.ImageCrop'>
+ImageFlip+   ::   <class 'ComfyUI_essentials.essentials.ImageFlip'>
+ImageDesaturate+   ::   <class 'ComfyUI_essentials.essentials.ImageDesaturate'>
+ImagePosterize+   ::   <class 'ComfyUI_essentials.essentials.ImagePosterize'>
+ImageCASharpening+   ::   <class 'ComfyUI_essentials.essentials.ImageCAS'>
+ImageEnhanceDifference+   ::   <class 'ComfyUI_essentials.essentials.ImageEnhanceDifference'>
+ImageExpandBatch+   ::   <class 'ComfyUI_essentials.essentials.ImageExpandBatch'>
+ImageFromBatch+   ::   <class 'ComfyUI_essentials.essentials.ImageFromBatch'>
+ImageCompositeFromMaskBatch+   ::   <class 'ComfyUI_essentials.essentials.ImageCompositeFromMaskBatch'>
+ExtractKeyframes+   ::   <class 'ComfyUI_essentials.essentials.ExtractKeyframes'>
+MaskBlur+   ::   <class 'ComfyUI_essentials.essentials.MaskBlur'>
+MaskFlip+   ::   <class 'ComfyUI_essentials.essentials.MaskFlip'>
+MaskPreview+   ::   <class 'ComfyUI_essentials.essentials.MaskPreview'>
+MaskBatch+   ::   <class 'ComfyUI_essentials.essentials.MaskBatch'>
+MaskExpandBatch+   ::   <class 'ComfyUI_essentials.essentials.MaskExpandBatch'>
+TransitionMask+   ::   <class 'ComfyUI_essentials.essentials.TransitionMask'>
+MaskFromColor+   ::   <class 'ComfyUI_essentials.essentials.MaskFromColor'>
+MaskFromBatch+   ::   <class 'ComfyUI_essentials.essentials.MaskFromBatch'>
+SimpleMath+   ::   <class 'ComfyUI_essentials.essentials.SimpleMath'>
+ConsoleDebug+   ::   <class 'ComfyUI_essentials.essentials.ConsoleDebug'>
+DebugTensorShape+   ::   <class 'ComfyUI_essentials.essentials.DebugTensorShape'>
+ModelCompile+   ::   <class 'ComfyUI_essentials.essentials.ModelCompile'>
+BatchCount+   ::   <class 'ComfyUI_essentials.essentials.BatchCount'>
+CLIPTextEncodeSDXL+   ::   <class 'ComfyUI_essentials.essentials.CLIPTextEncodeSDXLSimplified'>
+SDXLResolutionPicker+   ::   <class 'ComfyUI_essentials.essentials.SDXLResolutionPicker'>
+NNLatentUpscale   ::   <class 'ComfyUi_NNLatentUpscale.nn_upscale.NNLatentUpscale'>
+BilboXPhotoPrompt   ::   <class 'bilbox-comfyui.bilbox_photo_prompt.BilboXPhotoPrompt'>
+BilboXVignette   ::   <class 'bilbox-comfyui.bilbox_post_processing.BilboXVignette'>
+BilboXLut   ::   <class 'bilbox-comfyui.bilbox_post_processing.BilboXLut'>
+smZ CLIPTextEncode   ::   <class 'ComfyUI_smZNodes.nodes.smZ_CLIPTextEncode'>
+smZ Settings   ::   <class 'ComfyUI_smZNodes.nodes.smZ_Settings'>
+CR Image Output   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_ImageOutput'>
+CR Latent Batch Size   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_LatentBatchSize'>
+CR Conditioning Mixer   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_ConditioningMixer'>
+CR Select Model   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_SelectModel'>
+CR Seed   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_Seed'>
+CR Prompt Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_core.CR_PromptText'>
+CR Text List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_TextList'>
+CR Prompt List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_PromptList'>
+CR Simple List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_SimpleList'>
+CR Float Range List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_FloatRangeList'>
+CR Integer Range List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_IntegerRangeList'>
+CR Load Text List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_LoadTextList'>
+CR Binary To Bit List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_BinaryToBitList'>
+CR Text Cycler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_TextCycler'>
+CR Value Cycler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_ValueCycler'>
+CR Load Image List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_LoadImageList'>
+CR Load Image List Plus   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_LoadImageListPlus'>
+CR Load GIF As List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_LoadGIFAsList'>
+CR Font File List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_FontFileList'>
+CR Batch Images From List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_MakeBatchFromImageList'>
+CR Intertwine Lists   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_IntertwineLists'>
+CR Repeater   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_Repeater'>
+CR XY Product   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_XYProduct'>
+CR Text List To String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_list.CR_TextListToString'>
+CR SD1.5 Aspect Ratio   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_aspect_ratio.CR_AspectRatioSD15'>
+CR SDXL Aspect Ratio   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_aspect_ratio.CR_SDXLAspectRatio'>
+CR Aspect Ratio   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_aspect_ratio.CR_AspectRatio'>
+CR Aspect Ratio Banners   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_aspect_ratio.CR_AspectRatioBanners'>
+CR Aspect Ratio Social Media   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_aspect_ratio.CR_AspectRatioSocialMedia'>
+CR Image Size   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_legacy.CR_ImageSize'>
+CR Aspect Ratio SDXL   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_legacy.CR_AspectRatio_SDXL'>
+CR SDXL Prompt Mixer   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_legacy.CR_PromptMixer'>
+CR Seed to Int   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_legacy.CR_SeedToInt'>
+CR Apply ControlNet   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_controlnet.CR_ApplyControlNet'>
+CR Multi-ControlNet Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_controlnet.CR_ControlNetStack'>
+CR Apply Multi-ControlNet   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_controlnet.CR_ApplyControlNetStack'>
+CR Load LoRA   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_lora.CR_LoraLoader'>
+CR LoRA Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_lora.CR_LoRAStack'>
+CR Random LoRA Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_lora.CR_RandomLoRAStack'>
+CR Random Weight LoRA   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_lora.CR_RandomWeightLoRA'>
+CR Apply LoRA Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_lora.CR_ApplyLoRAStack'>
+CR Apply Model Merge   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_model_merge.CR_ApplyModelMerge'>
+CR Model Merge Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_model_merge.CR_ModelMergeStack'>
+CR Data Bus In   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_DataBusIn'>
+CR Data Bus Out   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_DataBusOut'>
+CR 8 Channel In   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_8ChannelIn'>
+CR 8 Channel Out   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_8ChannelOut'>
+CR Module Pipe Loader   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ModulePipeLoader'>
+CR Module Input   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ModuleInput'>
+CR Module Output   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ModuleOutput'>
+CR Image Pipe In   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ImagePipeIn'>
+CR Image Pipe Edit   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ImagePipeEdit'>
+CR Image Pipe Out   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_ImagePipeOut'>
+CR Pipe Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_pipe.CR_InputSwitchPipe'>
+CR SDXL Prompt Mix Presets   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_sdxl.CR_PromptMixPresets'>
+CR SDXL Style Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_sdxl.CR_SDXLStyleText'>
+CR SDXL Base Prompt Encoder   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_sdxl.CR_SDXLBasePromptEncoder'>
+CR Multi Upscale Stack   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_upscale.CR_MultiUpscaleStack'>
+CR Upscale Image   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_upscale.CR_UpscaleImage'>
+CR Apply Multi Upscale   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_upscale.CR_ApplyMultiUpscale'>
+CR XY List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_xygrid.CR_XYList'>
+CR XY Interpolate   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_xygrid.CR_XYInterpolate'>
+CR XY From Folder   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_xygrid.CR_XYFromFolder'>
+CR XY Save Grid Image   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_xygrid.CR_XYSaveGridImage'>
+CR XY Index   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_xygrid.CR_XYIndex'>
+CR Halftone Grid   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_HalftoneGrid'>
+CR Color Bars   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_ColorBars'>
+CR Style Bars   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_StyleBars'>
+CR Checker Pattern   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_CheckerPattern'>
+CR Polygons   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_Polygons'>
+CR Color Gradient   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_ColorGradient'>
+CR Radial Gradient   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_RadialGradient'>
+CR Starburst Lines   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_StarburstLines'>
+CR Starburst Colors   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_matplot.CR_StarburstColors'>
+CR Simple Binary Pattern   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_pattern.CR_BinaryPatternSimple'>
+CR Binary Pattern   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_pattern.CR_BinaryPattern'>
+CR Draw Shape   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_pattern.CR_DrawShape'>
+CR Draw Pie   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_pattern.CR_DrawPie'>
+CR Random Shape Pattern   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_pattern.CR_RandomShapePattern'>
+CR Overlay Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_OverlayText'>
+CR Draw Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_DrawText'>
+CR Mask Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_MaskText'>
+CR Composite Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_CompositeText'>
+CR Simple Text Watermark   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_SimpleTextWatermark'>
+CR Select Font   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_text.CR_SelectFont'>
+CR Halftone Filter   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_filter.CR_HalftoneFilter'>
+CR Color Tint   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_filter.CR_ColorTint'>
+CR Vignette Filter   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_filter.CR_VignetteFilter'>
+CR Page Layout   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_PageLayout'>
+CR Image Panel   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_ImagePanel'>
+CR Image Grid Panel   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_ImageGridPanel'>
+CR Image Border   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_ImageBorder'>
+CR Feathered Border   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_FeatheredBorder'>
+CR Simple Text Panel   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_SimpleTextPanel'>
+CR Color Panel   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_ColorPanel'>
+CR Overlay Transparent Image   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_layout.CR_OverlayTransparentImage'>
+CR Simple Meme Template   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_template.CR_SimpleMemeTemplate'>
+CR Simple Banner   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_template.CR_SimpleBanner'>
+CR Comic Panel Templates   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_template.CR_ComicPanelTemplates'>
+CR Simple Image Compare   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_template.CR_SimpleImageCompare'>
+CR Thumbnail Preview   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_graphics_template.CR_ThumbnailPreview'>
+CR Image Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ImageInputSwitch'>
+CR Image Input Switch (4 way)   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ImageInputSwitch4way'>
+CR Latent Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_LatentInputSwitch'>
+CR Conditioning Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ConditioningInputSwitch'>
+CR Clip Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ClipInputSwitch'>
+CR Model Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ModelInputSwitch'>
+CR ControlNet Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ControlNetInputSwitch'>
+CR VAE Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_VAEInputSwitch'>
+CR Text Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_TextInputSwitch'>
+CR Text Input Switch (4 way)   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_TextInputSwitch4way'>
+CR Switch Model and CLIP   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_ModelAndCLIPInputSwitch'>
+CR Batch Process Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_BatchProcessSwitch'>
+CR Img2Img Process Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_Img2ImgProcessSwitch'>
+CR Hires Fix Process Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_logic.CR_HiResFixProcessSwitch'>
+CR Index   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_index.CR_Index'>
+CR Index Increment   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_index.CR_IncrementIndex'>
+CR Index Multiply   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_index.CR_MultiplyIndex'>
+CR Index Reset   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_index.CR_IndexReset'>
+CR Trigger   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_index.CR_Trigger'>
+CR String To Number   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_StringToNumber'>
+CR String To Combo   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_StringToCombo'>
+CR Float To String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_FloatToString'>
+CR Float To Integer   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_FloatToInteger'>
+CR Integer To String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_IntegerToString'>
+CR String To Boolean   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_conversion.CR_StringToBoolean'>
+CR Random Hex Color   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomHexColor'>
+CR Random RGB   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomRGB'>
+CR Random Multiline Values   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomMultilineValues'>
+CR Random Multiline Colors   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomMultilineColors'>
+CR Random RGB Gradient   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomRGBGradient'>
+CR Random Panel Codes   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_random.CR_RandomPanelCodes'>
+CR Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_Text'>
+CR Multiline Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_MultilineText'>
+CR Split String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_SplitString'>
+CR Text Concatenate   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_TextConcatenate'>
+CR Text Replace   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_TextReplace'>
+CR Text Length   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_TextLength'>
+CR Text Operation   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_TextOperation'>
+CR Text Blacklist   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_TextBlacklist'>
+CR Save Text To File   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_text.CR_SaveTextToFile'>
+CR Set Value On Boolean   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_SetValueOnBoolean'>
+CR Set Value On Binary   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_SetValueOnBinary'>
+CR Set Value on String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_SetValueOnString'>
+CR Set Switch From String   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_SetSwitchFromString'>
+CR Value   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_Value'>
+CR Integer Multiple   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_IntegerMultipleOf'>
+CR Clamp Value   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_ClampValue'>
+CR Math Operation   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_MathOperation'>
+CR Get Parameter From Prompt   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_GetParameterFromPrompt'>
+CR Select Resize Method   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_utils_other.CR_SelectResizeMethod'>
+CR Simple Schedule   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_SimpleSchedule'>
+CR Central Schedule   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_CentralSchedule'>
+CR Combine Schedules   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_CombineSchedules'>
+CR Output Schedule To File   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_OutputScheduleToFile'>
+CR Load Schedule From File   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_LoadScheduleFromFile'>
+CR Schedule Input Switch   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.Comfyroll_ScheduleInputSwitch'>
+CR Bit Schedule   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedules.CR_BitSchedule'>
+CR Simple Value Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_SimpleValueScheduler'>
+CR Simple Text Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_SimpleTextScheduler'>
+CR Value Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_ValueScheduler'>
+CR Text Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_TextScheduler'>
+CR Load Scheduled Models   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_LoadScheduledModels'>
+CR Load Scheduled LoRAs   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_LoadScheduledLoRAs'>
+CR Prompt Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_PromptScheduler'>
+CR Simple Prompt Scheduler   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_schedulers.CR_SimplePromptScheduler'>
+CR Keyframe List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_prompt.CR_KeyframeList'>
+CR Encode Scheduled Prompts   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_prompt.CR_EncodeScheduledPrompts'>
+CR Gradient Float   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_interpolation.CR_GradientFloat'>
+CR Gradient Integer   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_interpolation.CR_GradientInteger'>
+CR Increment Float   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_interpolation.CR_IncrementFloat'>
+CR Increment Integer   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_interpolation.CR_IncrementInteger'>
+CR Interpolate Latents   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_interpolation.CR_InterpolateLatents'>
+CR Debatch Frames   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_utils.CR_DebatchFrames'>
+CR Current Frame   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_utils.CR_CurrentFrame'>
+CR Load Animation Frames   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_io.CR_LoadAnimationFrames'>
+CR Load Flow Frames   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_io.CR_LoadFlowFrames'>
+CR Output Flow Frames   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_io.CR_OutputFlowFrames'>
+CR Prompt List Keyframes   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_prompt.CR_PromptListKeyframes'>
+CR Simple Prompt List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_prompt.CR_SimplePromptList'>
+CR Simple Prompt List Keyframes   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_prompt.CR_SimplePromptListKeyframes'>
+CR Cycle Models   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleModels'>
+CR Cycle LoRAs   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleLoRAs'>
+CR Cycle Text   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleText'>
+CR Cycle Text Simple   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleTextSimple'>
+CR Cycle Images   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleImages'>
+CR Cycle Images Simple   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_cyclers.CR_CycleImagesSimple'>
+CR Model List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_lists.CR_ModelList'>
+CR LoRA List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_lists.CR_LoRAList'>
+CR Text List Simple   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_lists.CR_TextListSimple'>
+CR Image List   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_lists.CR_ImageList'>
+CR Image List Simple   ::   <class 'ComfyUI_Comfyroll_CustomNodes.nodes.nodes_animation_lists.CR_ImageListSimple'>
+SDXLResolutionPresets   ::   <class '/media/azazul/PRS/projects/ajgDiffusion/pixgen/ComfyUI/custom_nodes/sdxl_utility.SDXLResolutionPresets'>
+KSampler Gradually Adding More Denoise (efficient)   ::   <class 'ComfyUI-Frame-Interpolation.other_nodes.Gradually_More_Denoise_KSampler'>
+GMFSS Fortuna VFI   ::   <class 'vfi_models.gmfss_fortuna.GMFSS_Fortuna_VFI'>
+IFRNet VFI   ::   <class 'vfi_models.ifrnet.IFRNet_VFI'>
+IFUnet VFI   ::   <class 'vfi_models.ifunet.IFUnet_VFI'>
+M2M VFI   ::   <class 'vfi_models.m2m.M2M_VFI'>
+RIFE VFI   ::   <class 'vfi_models.rife.RIFE_VFI'>
+Sepconv VFI   ::   <class 'vfi_models.sepconv.SepconvVFI'>
+AMT VFI   ::   <class 'vfi_models.amt.AMT_VFI'>
+FILM VFI   ::   <class 'vfi_models.film.FILM_VFI'>
+Make Interpolation State List   ::   <class 'vfi_utils.MakeInterpolationStateList'>
+STMFNet VFI   ::   <class 'vfi_models.stmfnet.STMFNet_VFI'>
+FLAVR VFI   ::   <class 'vfi_models.flavr.FLAVR_VFI'>
+CAIN VFI   ::   <class 'vfi_models.cain.CAIN_VFI'>
+AlphaChanelAdd   ::   <class 'ComfyUI-Allor.modules.AlphaChanel.AlphaChanelAdd'>
+AlphaChanelAddByMask   ::   <class 'ComfyUI-Text_Image-Composite.Zho_AlphaChanel.AlphaChanelAddByMask'>
+AlphaChanelAsMask   ::   <class 'ComfyUI-Allor.modules.AlphaChanel.AlphaChanelAsMask'>
+AlphaChanelRestore   ::   <class 'ComfyUI-Allor.modules.AlphaChanel.AlphaChanelRestore'>
+AlphaChanelRemove   ::   <class 'ComfyUI-Allor.modules.AlphaChanel.AlphaChanelRemove'>
+ClipClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ClipClamp'>
+ClipVisionClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ClipVisionClamp'>
+ClipVisionOutputClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ClipVisionOutputClamp'>
+ConditioningClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ConditioningClamp'>
+ControlNetClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ControlNetClamp'>
+GligenClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.GligenClamp'>
+ImageClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ImageClamp'>
+LatentClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.LatentClamp'>
+MaskClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.MaskClamp'>
+ModelClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.ModelClamp'>
+StyleModelClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.StyleModelClamp'>
+UpscaleModelClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.UpscaleModelClamp'>
+VaeClamp   ::   <class 'ComfyUI-Allor.modules.Clamp.VaeClamp'>
+ImageBatchGet   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchGet'>
+ImageBatchCopy   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchCopy'>
+ImageBatchRemove   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchRemove'>
+ImageBatchFork   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchFork'>
+ImageBatchJoin   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchJoin'>
+ImageBatchPermute   ::   <class 'ComfyUI-Allor.modules.ImageBatch.ImageBatchPermute'>
+ImageCompositeAbsolute   ::   <class 'ComfyUI-Allor.modules.ImageComposite.ImageCompositeAbsolute'>
+ImageCompositeAbsoluteByContainer   ::   <class 'ComfyUI-Allor.modules.ImageComposite.ImageCompositeAbsoluteByContainer'>
+ImageCompositeRelative   ::   <class 'ComfyUI-Allor.modules.ImageComposite.ImageCompositeRelative'>
+ImageCompositeRelativeByContainer   ::   <class 'ComfyUI-Allor.modules.ImageComposite.ImageCompositeRelativeByContainer'>
+ImageContainer   ::   <class 'ComfyUI-Allor.modules.ImageContainer.ImageContainer'>
+ImageContainerInheritanceAdd   ::   <class 'ComfyUI-Allor.modules.ImageContainer.ImageContainerInheritanceAdd'>
+ImageContainerInheritanceScale   ::   <class 'ComfyUI-Allor.modules.ImageContainer.ImageContainerInheritanceScale'>
+ImageContainerInheritanceMax   ::   <class 'ComfyUI-Allor.modules.ImageContainer.ImageContainerInheritanceMax'>
+ImageContainerInheritanceSum   ::   <class 'ComfyUI-Allor.modules.ImageContainer.ImageContainerInheritanceSum'>
+ImageDrawArc   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawArc'>
+ImageDrawArcByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawArcByContainer'>
+ImageDrawChord   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawChord'>
+ImageDrawChordByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawChordByContainer'>
+ImageDrawEllipse   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawEllipse'>
+ImageDrawEllipseByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawEllipseByContainer'>
+ImageDrawLine   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawLine'>
+ImageDrawLineByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawLineByContainer'>
+ImageDrawPieslice   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawPieslice'>
+ImageDrawPiesliceByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawPiesliceByContainer'>
+ImageDrawRectangle   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawRectangle'>
+ImageDrawRectangleByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawRectangleByContainer'>
+ImageDrawRectangleRounded   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawRectangleRounded'>
+ImageDrawRectangleRoundedByContainer   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawRectangleRoundedByContainer'>
+ImageDrawPolygon   ::   <class 'ComfyUI-Allor.modules.ImageDraw.ImageDrawPolygon'>
+ImageEffectsAdjustment   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsAdjustment'>
+ImageEffectsGrayscale   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsGrayscale'>
+ImageEffectsNegative   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsNegative'>
+ImageEffectsSepia   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsSepia'>
+ImageEffectsLensZoomBurst   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsLensZoomBurst'>
+ImageEffectsLensChromaticAberration   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsLensChromaticAberration'>
+ImageEffectsLensBokeh   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsLensBokeh'>
+ImageEffectsLensOpticAxis   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsLensOpticAxis'>
+ImageEffectsLensVignette   ::   <class 'ComfyUI-Allor.modules.ImageEffects.ImageEffectsLensVignette'>
+ImageFilterSmooth   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterSmooth'>
+ImageFilterSmoothMore   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterSmoothMore'>
+ImageFilterBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterBlur'>
+ImageFilterBoxBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterBoxBlur'>
+ImageFilterGaussianBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterGaussianBlur'>
+ImageFilterGaussianBlurAdvanced   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterGaussianBlurAdvanced'>
+ImageFilterStackBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterStackBlur'>
+ImageFilterMedianBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterMedianBlur'>
+ImageFilterBilateralBlur   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterBilateralBlur'>
+ImageFilterContour   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterContour'>
+ImageFilterDetail   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterDetail'>
+ImageFilterEdgeEnhance   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterEdgeEnhance'>
+ImageFilterEdgeEnhanceMore   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterEdgeEnhanceMore'>
+ImageFilterEmboss   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterEmboss'>
+ImageFilterFindEdges   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterFindEdges'>
+ImageFilterSharpen   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterSharpen'>
+ImageFilterRank   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterRank'>
+ImageFilterMin   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterMin'>
+ImageFilterMax   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterMax'>
+ImageFilterMode   ::   <class 'ComfyUI-Allor.modules.ImageFilter.ImageFilterMode'>
+ImageNoiseBeta   ::   <class 'ComfyUI-Allor.modules.ImageNoise.ImageNoiseBeta'>
+ImageNoiseBinomial   ::   <class 'ComfyUI-Allor.modules.ImageNoise.ImageNoiseBinomial'>
+ImageNoiseBytes   ::   <class 'ComfyUI-Allor.modules.ImageNoise.ImageNoiseBytes'>
+ImageNoiseGaussian   ::   <class 'ComfyUI-Allor.modules.ImageNoise.ImageNoiseGaussian'>
+ImageSegmentation   ::   <class 'ComfyUI-Allor.modules.ImageSegmentation.ImageSegmentation'>
+ImageSegmentationCustom   ::   <class 'ComfyUI-Allor.modules.ImageSegmentation.ImageSegmentationCustom'>
+ImageSegmentationCustomAdvanced   ::   <class 'ComfyUI-Allor.modules.ImageSegmentation.ImageSegmentationCustomAdvanced'>
+ImageText   ::   <class 'ComfyUI-Allor.modules.ImageText.ImageText'>
+ImageTextOutlined   ::   <class 'ComfyUI-Allor.modules.ImageText.ImageTextOutlined'>
+ImageTextMultiline   ::   <class 'ComfyUI-Allor.modules.ImageText.ImageTextMultiline'>
+ImageTextMultilineOutlined   ::   <class 'ComfyUI-Allor.modules.ImageText.ImageTextMultilineOutlined'>
+ImageTransformResizeAbsolute   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformResizeAbsolute'>
+ImageTransformResizeRelative   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformResizeRelative'>
+ImageTransformResizeClip   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformResizeClip'>
+ImageTransformCropAbsolute   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformCropAbsolute'>
+ImageTransformCropRelative   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformCropRelative'>
+ImageTransformCropCorners   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformCropCorners'>
+ImageTransformPaddingAbsolute   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformPaddingAbsolute'>
+ImageTransformPaddingRelative   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformPaddingRelative'>
+ImageTransformRotate   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformRotate'>
+ImageTransformTranspose   ::   <class 'ComfyUI-Allor.modules.ImageTransform.ImageTransformTranspose'>
+Text_Image_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_TextImage.Text_Image_Zho'>
+Text_Image_Multiline_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_TextImage.Text_Image_Multiline_Zho'>
+RGB_Image_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_RGB_Image.RGB_Image_Zho'>
+ImageComposite_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_ImageComposite.ImageComposite_Zho'>
+ImageComposite_BG_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_ImageComposite.ImageComposite_BG_Zho'>
+ImageCompositeBy_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_ImageComposite.ImageCompositeBy_Zho'>
+ImageCompositeBy_BG_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_ImageComposite.ImageCompositeBy_BG_Zho'>
+Text_Image_Frame_Zho   ::   <class 'ComfyUI-Text_Image-Composite.Zho_TextImage_frame.Text_Image_Frame_Zho'>
+SleepNodeAny   ::   <class 'ComfyUI-LogicUtils.io_node.SleepNodeAny'>
+SleepNodeImage   ::   <class 'ComfyUI-LogicUtils.io_node.SleepNodeImage'>
+ErrorNode   ::   <class 'ComfyUI-LogicUtils.io_node.ErrorNode'>
+DebugComboInputNode   ::   <class 'ComfyUI-LogicUtils.io_node.DebugComboInputNode'>
+TextPreviewNode   ::   <class 'ComfyUI-LogicUtils.io_node.TextPreviewNode'>
+ParseExifNode   ::   <class 'ComfyUI-LogicUtils.io_node.ParseExifNode'>
+SaveImageCustomNode   ::   <class 'ComfyUI-LogicUtils.io_node.SaveImageCustomNode'>
+SaveTextCustomNode   ::   <class 'ComfyUI-LogicUtils.io_node.SaveTextCustomNode'>
+LogicGateCompare   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateCompare'>
+LogicGateInvertBasic   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateInvertBasic'>
+LogicGateNegateValue   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateNegateValue'>
+LogicGateBitwiseShift   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateBitwiseShift'>
+LogicGateBitwiseAnd   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateBitwiseAnd'>
+LogicGateBitwiseOr   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateBitwiseOr'>
+LogicGateBitwiseXor   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateBitwiseXor'>
+LogicGateBitwiseNot   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateBitwiseNot'>
+LogicGateCompareString   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateCompareString'>
+StaticNumberInt   ::   <class 'ComfyUI-LogicUtils.logic_gates.StaticNumberInt'>
+StaticNumberFloat   ::   <class 'ComfyUI-LogicUtils.logic_gates.StaticNumberFloat'>
+StaticString   ::   <class 'ComfyUI-LogicUtils.logic_gates.StaticString'>
+LogicGateAnd   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateAnd'>
+LogicGateOr   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateOr'>
+LogicGateEither   ::   <class 'ComfyUI-LogicUtils.logic_gates.LogicGateEither'>
+AddNode   ::   <class 'ComfyUI-LogicUtils.logic_gates.AddNode'>
+MergeString   ::   <class 'ComfyUI-LogicUtils.logic_gates.MergeString'>
+ReplaceString   ::   <class 'ComfyUI-LogicUtils.logic_gates.ReplaceString'>
+MemoryNode   ::   <class 'ComfyUI-LogicUtils.logic_gates.MemoryNode'>
+UniformRandomFloat   ::   <class 'ComfyUI-LogicUtils.randomness.UniformRandomFloat'>
+UniformRandomInt   ::   <class 'ComfyUI-LogicUtils.randomness.UniformRandomInt'>
+UniformRandomChoice   ::   <class 'ComfyUI-LogicUtils.randomness.UniformRandomChoice'>
+ManualChoiceString   ::   <class 'ComfyUI-LogicUtils.randomness.ManualChoiceString'>
+ManualChoiceInt   ::   <class 'ComfyUI-LogicUtils.randomness.ManualChoiceInt'>
+ManualChoiceFloat   ::   <class 'ComfyUI-LogicUtils.randomness.ManualChoiceFloat'>
+RandomShuffleInt   ::   <class 'ComfyUI-LogicUtils.randomness.RandomShuffleInt'>
+RandomShuffleFloat   ::   <class 'ComfyUI-LogicUtils.randomness.RandomShuffleFloat'>
+RandomShuffleString   ::   <class 'ComfyUI-LogicUtils.randomness.RandomShuffleString'>
+YieldableIteratorString   ::   <class 'ComfyUI-LogicUtils.randomness.YieldableIteratorString'>
+YieldableIteratorInt   ::   <class 'ComfyUI-LogicUtils.randomness.YieldableIteratorInt'>
+StringListToCombo   ::   <class 'ComfyUI-LogicUtils.conversion.StringListToCombo'>
+ConvertComboToString   ::   <class 'ComfyUI-LogicUtils.conversion.ConvertComboToString'>
+ConvertAny2Int   ::   <class 'ComfyUI-LogicUtils.conversion.create_class.<locals>.CustomClass'>
+ConvertAny2Float   ::   <class 'ComfyUI-LogicUtils.conversion.create_class.<locals>.CustomClass'>
+ConvertAny2Bool   ::   <class 'ComfyUI-LogicUtils.conversion.create_class.<locals>.CustomClass'>
+ConvertAny2String   ::   <class 'ComfyUI-LogicUtils.conversion.create_class.<locals>.CustomClass'>
+MinNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.MinNode'>
+MaxNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.MaxNode'>
+RoundNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.RoundNode'>
+AbsNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.AbsNode'>
+FloorNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.FloorNode'>
+CeilNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.CeilNode'>
+PowerNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.PowerNode'>
+LogNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.LogNode'>
+MultiplyNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.MultiplyNode'>
+DivideNode   ::   <class 'ComfyUI-LogicUtils.math_nodes.DivideNode'>
